@@ -10,7 +10,8 @@
     position: relative;
     @include flex();
     align-items: flex-end;
-    height: 100vh;
+    // height: 100vh;
+    margin: 0 0 24rem;
     &::before {
         position: absolute;
         top: 0;
@@ -23,26 +24,43 @@
 }
 .p-common-fv__msg {
     // width: 72rem;
-    width: 80rem;
+    // width: 80rem;
+    width: 72rem;
+    margin: 44rem 0 -16rem;
     padding: 8rem 8rem;
     background-color: $color-bg-default;
     z-index: 1;
 }
 .p-common-fv__msg-ttl {
-    @include flex();
+    // @include flex();
+    display: inline-flex;
+    flex-direction: column;
     // margin: 0 0 1.8rem;
-    span {
-        position: relative;
-        @include flex();
-        align-items: center;
-        flex-shrink: 0;
-        width: 100%;
-        font-size: 4.2rem;
-    }
+    // span {
+    //     position: relative;
+    //     @include flex();
+    //     align-items: center;
+    //     flex-shrink: 0;
+    //     width: 100%;
+    //     // font-size: 4.2rem;
+    //     font-size: 6.2rem;
+    // }
+}
+.p-common-fv__msg-ttl__main {
+    font-size: 6.2rem;
+    line-height: 1.4;
+}
+.p-common-fv__msg-ttl__sub {
+    padding: 0 0 0 1rem;
+    color: $color-bg-default;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    letter-spacing: .2rem;
+    background-color: $color-key;
 }
 .p-common-fv__msg-txt {
-    margin: 1.8rem 0 0;
-    padding: 1.8rem 0 0;
+    margin: 2.8rem 0 0;
+    padding: 2rem 0 0;
     border-top: 1px solid $color-key;
     font-size: 1.8rem;
     line-height: 2;
