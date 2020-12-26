@@ -1,0 +1,33 @@
+.c-txt__link {
+    font-size: 1.6rem;
+    color: $color-key;
+    border-bottom: 1px solid $color-key;
+    float: right;
+}
+
+.c-txt__sec {
+    margin: 0 0 3rem;
+    font-size: 1.8rem;
+    font-family: serif;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .c-txt__link {
+        font-size: 4rem;
+    }
+
+    .c-txt__sec {
+        margin: 0 0 2rem;
+        font-size: 4.2rem;
+        line-height: 2;
+    }
+}

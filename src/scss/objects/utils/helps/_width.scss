@@ -1,0 +1,50 @@
+.u-width__sec {
+    width: 100rem;
+    margin: 16rem auto 0;
+}
+
+.u-width__sec-container {
+    width: 100%;
+    margin: 8rem 0 0;
+}
+
+.u-width__sec-container-full {
+    width: 100%;
+    margin: 8rem 0 0;
+}
+
+.u-width__sec-container-cover {
+    width: 160rem;
+    margin: 8rem -30rem 0;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .u-width__sec {
+        width: 100%;
+        // margin: 16rem auto 0;
+        margin: 20rem auto 0;
+    }
+
+    .u-width__sec-container {
+        width: 140rem;
+        margin: 10rem auto 0;
+    }
+
+    .u-width__sec-container-full {
+        width: 100%;
+        margin: 10rem auto 0;
+    }
+
+    .u-width__sec-container-cover {
+        width: 100%;
+        margin: 10rem 0 0;
+    }
+}

@@ -1,0 +1,61 @@
+.p-common-fv {
+
+}
+.p-intro-fv {
+    .p-common-fv__wrapper {
+        background-image: url("/asset/img/intro/fv-bg.jpeg");
+    } 
+}
+.p-common-fv__wrapper {
+    position: relative;
+    @include flex();
+    align-items: flex-end;
+    height: 100vh;
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-color: rgba(0, 0, 0, .5);
+    }
+}
+.p-common-fv__msg {
+    // width: 72rem;
+    width: 80rem;
+    padding: 8rem 8rem;
+    background-color: $color-bg-default;
+    z-index: 1;
+}
+.p-common-fv__msg-ttl {
+    @include flex();
+    // margin: 0 0 1.8rem;
+    span {
+        position: relative;
+        @include flex();
+        align-items: center;
+        flex-shrink: 0;
+        width: 100%;
+        font-size: 4.2rem;
+    }
+}
+.p-common-fv__msg-txt {
+    margin: 1.8rem 0 0;
+    padding: 1.8rem 0 0;
+    border-top: 1px solid $color-key;
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+}

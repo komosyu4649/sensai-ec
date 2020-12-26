@@ -1,0 +1,5 @@
+.p-top {}
+
+@include max-screen() {
+  .p-top {}
+}

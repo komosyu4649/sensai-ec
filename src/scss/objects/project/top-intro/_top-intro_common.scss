@@ -1,0 +1,201 @@
+.p-top-intro {
+    
+}
+.p-top-intro__wrapper {
+
+}
+.p-top-intro__ttl {
+    span {
+
+    }
+}
+.p-top-intro__container {
+    // width: 88rem;
+    // margin: 8rem auto 0;
+}
+.p-top-intro__list {
+
+}
+.p-top-intro__item {
+    @include flex();
+    flex-direction: column;
+    // margin: 0 0 8rem;
+    margin: 0 0 6rem;
+    &:last-child {
+        margin: 0;
+    }
+    &:nth-child(even) {
+        align-items: flex-end;
+    }
+}
+.p-top-intro__item-img {
+    width: 100%;
+}
+.p-top-intro__item-img-item {
+    width: 100rem;
+    // width: 88rem;
+    // height: 64rem;
+    height: 56rem;
+}
+.p-top-intro__item-content {
+    width: 56rem;
+    // width: 48rem;
+    // margin: -36rem 0 0;
+    // margin: -24rem 0 0;
+    // margin: -20rem 0 0;
+    // padding: 6rem 4rem;
+    // padding: 4rem;
+    padding: 6rem;
+    background-color: $color-bg-default;
+}
+.p-top-intro__item-content-ttl {
+    margin: 0 0 2rem;
+    span {
+        // font-size: 4rem;
+        font-size: 3.6rem;
+        // font-size: 4.2rem;
+    }
+}
+.p-top-intro__item-content-txt {
+    // margin: 0 0 2rem;
+    // font-size: 1.8rem;
+    // font-family: serif;
+    // line-height: 1.8;
+}
+.p-top-intro__item-content-link {
+    // float: right;
+}
+
+
+// 里芋
+.p-top-intro__item__imo {
+    .p-top-intro__item-img {
+        // margin: 0 0 0 4rem;
+        margin: 0 0 0 12rem;
+    }
+    .p-top-intro__item-img-item {
+        background-image: url("/asset/img/top/intro-imo.jpeg");
+    }
+    .p-top-intro__item-content {
+        // margin: -20rem 0rem 0 -4rem;
+        margin: -24rem 0rem 0 -8rem;
+    }
+}
+// ねぎ
+.p-top-intro__item__negi {
+    .p-top-intro__item-img {
+        // margin: 0 4rem 0 0;
+        margin: 0 12rem 0 0;
+    }
+    .p-top-intro__item-img-item {
+        background-image: url("/asset/img/top/intro-negi.jpeg");
+    }
+    .p-top-intro__item-content {
+        // margin: -20rem -4rem 0 0;
+        margin: -24rem -8rem 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .p-top-intro {
+    
+    }
+    .p-top-intro__wrapper {
+    
+    }
+    .p-top-intro__ttl {
+        span {
+    
+        }
+    }
+    .p-top-intro__container {
+        // width: 100%;
+        // margin: 10rem auto 0;
+    }
+    .p-top-intro__list {
+    
+    }
+    .p-top-intro__item {
+        @include flex();
+        flex-direction: column;
+        // margin: 0 0 8rem;
+        margin: 0 0 6rem;
+        &:last-child {
+            margin: 0;
+        }
+        &:nth-child(even) {
+            align-items: flex-end;
+        }
+    }
+    .p-top-intro__item-img {
+        width: 100%;
+    }
+    .p-top-intro__item-img-item {
+        width: 100%;
+        // width: 88rem;
+        // height: 64rem;
+        height: 88rem;
+    }
+    .p-top-intro__item-content {
+        width: 136rem;
+        // padding: 8rem;
+        padding: 12rem;
+        background-color: $color-bg-default;
+    }
+    .p-top-intro__item-content-ttl {
+        margin: 0 0 3rem;
+        span {
+            // font-size: 4rem;
+            font-size: 7.2rem;
+            // font-size: 4.2rem;
+        }
+    }
+    .p-top-intro__item-content-txt {
+        // margin: 0 0 3rem;
+        // font-size: 4.2rem;
+    }
+    .p-top-intro__item-content-link {
+        // float: right;
+    }
+    
+    
+    // 里芋
+    .p-top-intro__item__imo {
+        .p-top-intro__item-img {
+            // margin: 0 0 0 4rem;
+            margin: 0;
+        }
+        .p-top-intro__item-img-item {
+            background-image: url("/asset/img/top/intro-imo.jpeg");
+        }
+        .p-top-intro__item-content {
+            // margin: -20rem 0rem 0 -4rem;
+            margin: -16rem 0 0;
+        }
+    }
+    // ねぎ
+    .p-top-intro__item__negi {
+        .p-top-intro__item-img {
+            // margin: 0 4rem 0 0;
+            // margin: 0 12rem 0 0;
+            margin: 0;
+        }
+        .p-top-intro__item-img-item {
+            background-image: url("/asset/img/top/intro-negi.jpeg");
+        }
+        .p-top-intro__item-content {
+            // margin: -20rem -4rem 0 0;
+            // margin: -24rem -8rem 0 0;
+            margin: -16rem 0 0;
+        }
+    }
+    
+}

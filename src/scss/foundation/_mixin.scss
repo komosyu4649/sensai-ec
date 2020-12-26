@@ -1,0 +1,96 @@
+@mixin placeHolderColor($color){
+  &::-webkit-input-placeholder{
+    color: $color;
+  }
+  &::-moz-placeholder{
+    color: $color;
+  }
+  &:-ms-input-placeholder{
+    color: $color;
+  }
+}
+
+
+/**
+  margin
+ **********/
+@mixin m-center{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/**
+  before / after
+ **********/
+@mixin b{
+  &:before{
+    @content
+  }
+}
+@mixin a{
+  &:after{
+    @content
+  }
+}
+
+@mixin ba{
+  &:before,
+  &:after {
+    @content
+  }
+}
+
+@mixin baInit($w:100%, $h:100%, $pos:absolute){
+  content: '';
+  position: $pos;
+  @include rect($w,$h);
+}
+
+@mixin rect($w,$h,$type:block){
+  display: $type;
+  width: $w;
+  height: $h;
+}
+
+
+/**
+ mediaQuery
+ ***********/
+@mixin max-screen($break-point:767px){
+  @media screen and (max-width: $break-point){
+    @content
+  }
+}
+
+@mixin max-screen-height($break-point:767px){
+  @media screen and (max-height: $break-point){
+    @content;
+  }
+}
+
+@mixin min-screen($break-point:768px){
+  @media screen and (min-width: $break-point){
+    @content;
+  }
+}
+
+@mixin min-screen-height($break-point:768px){
+  @media screen and (min-height: $break-point){
+    @content;
+  }
+}
+
+@mixin screen($break-point-min, $break-point-max){
+  @media screen and (min-width: $break-point-min) and (max-width: $break-point-max){
+    @content;
+  }
+}
+
+
+@mixin flex() {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}

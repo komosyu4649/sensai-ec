@@ -1,0 +1,160 @@
+// スクロール時に浮き上がる
+.u-title-scroll__main {
+}
+.u-title-scroll__sub {
+}
+    .u-titile-scroll__cover {
+        overflow: hidden;
+    }
+        .u-title-scroll__inner {
+            display: block;
+            visibility: hidden;
+            transform: translateY(100%);
+        }
+        // .u-title-scroll__inner-head {
+        //     display: block;
+        //     visibility: hidden;
+        //     transform: translateY(100%);
+        // }
+// アニメーション
+.js-scroll__title-main {
+        .u-title-scroll__main-heading {
+            transition: 
+                transform .6s .2s cubic-bezier(.22,.38,.22,.83),
+                visibility .6s .2s cubic-bezier(.22,.38,.22,.83)
+            ;
+        }
+        .u-title-scroll__main-sub-heading {
+            transition: 
+                transform .6s .8s cubic-bezier(.22,.38,.22,.83),
+                visibility .6s .8s cubic-bezier(.22,.38,.22,.83)
+            ;
+        }
+        .u-title-scroll__inner {
+            transform: translateY(5%);
+            visibility: visible;
+        }
+        // .u-title-scroll__inner-head {
+        //     transform: translateY(0);
+        //     visibility: visible;
+        // }
+}
+.js-scroll__title-sub {
+    .u-title-scroll__sub-subnumber-sub {
+        transition: 
+            transform .6s .2s cubic-bezier(.22,.38,.22,.83),
+            visibility .6s .2s cubic-bezier(.22,.38,.22,.83)
+        ;
+    }
+    .u-title-scroll__sub-subnumber-num {
+        transition: 
+            transform .6s .4s cubic-bezier(.22,.38,.22,.83),
+            visibility .6s .4s cubic-bezier(.22,.38,.22,.83)
+        ;
+    }
+    .u-title-scroll__sub-heading-one {
+        transition: 
+            transform .6s .8s cubic-bezier(.22,.38,.22,.83),
+            visibility .6s .8s cubic-bezier(.22,.38,.22,.83)
+        ;
+    }
+    .u-title-scroll__sub-heading-two {
+        transition: 
+            transform .6s 1s cubic-bezier(.22,.38,.22,.83),
+            visibility .6s 1s cubic-bezier(.22,.38,.22,.83)
+        ;
+    }
+    .u-title-scroll__sub-service-heading-one {
+        transition: 
+            transform .6s .2s cubic-bezier(.22,.38,.22,.83),
+            visibility .6s .2s cubic-bezier(.22,.38,.22,.83)
+        ;
+    }
+    .u-title-scroll__sub-service-heading-two {
+        transition: 
+            transform .6s .4s cubic-bezier(.22,.38,.22,.83),
+            visibility .6s .4s cubic-bezier(.22,.38,.22,.83)
+        ;
+    }
+    .u-title-scroll__inner {
+        transform: translateY(0);
+        visibility: visible;
+    }
+    // .u-title-scroll__inner-head {
+    //     transform: translateY(0);
+    //     visibility: visible;
+    // }
+}
+
+
+
+
+
+// 読み込み時に浮き上がる
+.u-title-load__main {
+    .u-title-load__main-heading-cover {
+        overflow: hidden;
+    }
+        .u-title-load__main-heading {
+            visibility: hidden;
+            transform: translateY(100%);
+        }
+        .u-title-load__main-heading-one {
+            visibility: hidden;
+            transform: translateY(100%);
+        }
+        .u-title-load__main-heading-two {
+            visibility: hidden;
+            transform: translateY(100%);
+        }
+    .u-title-load__sub-heading-cover {
+        margin: 8px 0 0;
+        overflow: hidden;
+    }
+        .u-title-load__sub-heading {
+            display: block;
+            visibility: hidden;
+            transform: translateY(100%);
+        }
+}
+// アニメーション
+.js-load__title {
+    .u-title-load__main-heading-cover {
+        overflow: hidden;
+    }
+        .u-title-load__main-heading {
+            transform: translateY(5%);
+            visibility:visible;
+            transition: 
+                transform .6s .2s cubic-bezier(.22,.38,.22,.83),
+                visibility .6s .2s cubic-bezier(.22,.38,.22,.83)
+            ;
+        }
+        .u-title-load__main-heading-one {
+            transform: translateY(0);
+            visibility:visible;
+            transition: 
+                transform .6s .2s cubic-bezier(.22,.38,.22,.83),
+                visibility .6s .2s cubic-bezier(.22,.38,.22,.83)
+            ;
+        }
+        .u-title-load__main-heading-two {
+            transform: translateY(0);
+            visibility:visible;
+            transition: 
+                transform .6s .48s cubic-bezier(.22,.38,.22,.83),
+                visibility .6s .48s cubic-bezier(.22,.38,.22,.83)
+            ;
+        }
+    .u-title-load__sub-heading-cover {
+        overflow: hidden;
+    }
+        .u-title-load__sub-heading {
+            transform: translateY(0);
+            visibility:visible;
+            transition: 
+                transform .6s .8s cubic-bezier(.22,.38,.22,.83),
+                visibility .6s .8s cubic-bezier(.22,.38,.22,.83)
+            ;
+        }
+}

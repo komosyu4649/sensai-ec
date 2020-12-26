@@ -1,0 +1,268 @@
+// .u-hover__link, .u-hover__link-bc-fff, .u-hover__link-bc-f5 {
+//     position: relative;
+//     transition: background-color .1s linear;
+//     &:hover {
+//         background-color: #0f2372;
+//         transition: background-color .1s linear;
+//     }
+//     // 上
+//     &:hover::before {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         content: attr(data-hover);
+//         color: $color-bg-default;
+//         transform: translateY(-20%);
+//         visibility: visible;
+//         opacity: 1;
+//         transition: 
+//             transform .4s linear,
+//             opacity .4s linear,
+//             visibility .4s linear
+//         ;
+//         animation: "link-before" .4s linear forwards;
+//     }
+//     @keyframes link-before {
+//         0% {
+//             opacity: 1;
+//         }
+//         60% {
+//             opacity: .4;
+//         }
+//         100% {
+//             opacity: 0;
+//         }
+//     }
+//     &::before {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         @include flex-box();
+//         justify-content: center;
+//         align-items: center;
+//         width: 100%;
+//         height: 100%;
+//         content: attr(data-hover);
+//         transform: translateY(0%);
+//         visibility: hidden;
+//         opacity: 0;
+//     }
+//     // 下
+//     &:hover::after {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         content: attr(data-hover);
+//         color: $color-bg-default;
+//         transform: translateY(0%);
+//         visibility: visible;
+//         opacity: 1;
+//         transition: 
+//             transform .4s .04s linear,
+//             opacity .4s .04s linear,
+//             visibility .4s .04s linear
+//         ;
+//         animation: "link-after" .4s .1s linear forwards;
+//     }
+//     @keyframes link-after {
+//         0% {
+//             opacity: 0;
+//         }
+//         20% {
+//             opacity: .3;
+//         }
+//         100% {
+//             opacity: 1;
+//         }
+//     }
+//     &::after {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         @include flex-box();
+//         justify-content: center;
+//         align-items: center;
+//         width: 100%;
+//         height: 100%;
+//         content: attr(data-hover);
+//         transform: translateY(20%);
+//         visibility: hidden;
+//         opacity: 0;
+//         transition: transform 1s;
+//     }
+//     &:hover .u-hover__text {
+//         opacity: 0;
+//     }
+// }
+
+// .u-hover__text {
+//     opacity: 1;
+// }
+
+
+// // font-size: お問い合わせ
+// .u-hover__link-fs-contact {
+//     &::before {
+//         margin: 0 0 0 13px;
+//         font-size: 12px;
+//         font-weight: $bold;
+//     }
+//     &::after {
+//         margin: 0 0 0 13px;
+//         font-size: 12px;
+//         font-weight: $bold;
+//     }
+// }
+
+// // font-size: 12px
+// .u-hover__link-fs12 {
+//     &::before {
+//         font-size: 12px;
+//     }
+//     &::after {
+//         font-size: 12px;
+//     }
+// }
+
+// // font-size: 14px
+// .u-hover__link-fs14 {
+//     &::before {
+//         font-size: 14px;
+//     }
+//     &::after {
+//         font-size: 14px;
+//     }
+// }
+
+// // font-size: 15.84px
+// .u-hover__link-fs1584 {
+//     &::before {
+//         font-size: 15.84px;
+//     }
+//     &::after {
+//         font-size: 15.84px;
+//     }
+// }
+
+// // font-size: 16px
+// .u-hover__link-fs16 {
+//     &::before {
+//         font-size: 16px;
+//     }
+//     &::after {
+//         font-size: 16px;
+//     }
+// }
+
+
+// // ボタンサイズ お問い合わせ
+// .u-hover__link-transform-contact {
+//     &:hover::after {
+//         transform: translateY(0%);
+//     }
+//     &::after {
+//         transform: translateY(20%);
+//     }
+// }
+
+// // ボタンサイズ80px
+// .u-hover__link-transform14 {
+//     &:hover::after {
+//         transform: translateY(0%);
+//     }
+//     &::after {
+//         transform: translateY(14%);
+//     }
+// }
+
+// // ボタンサイズ100px
+// .u-hover__link-transform8 {
+//     &:hover::after {
+//         transform: translateY(0%);
+//     }
+//     &::after {
+//         transform: translateY(10%);
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// @media screen and (max-width:768px) {
+//     .u-hover__link {
+//         &:hover {
+
+//         }
+//         // 上
+//         &:hover::before {
+//             content: none;
+//             color: none;
+//         }
+//         &::before {
+//             content: none;
+//         }
+//         // 下
+//         &:hover::after {
+//             content: none;
+//         }
+//         &::after {
+//             content: none;
+//         }
+//         &:hover .u-hover__text {
+//             opacity: 1;
+//         }
+//     }
+//     // 詳細はこちら
+//     .u-hover__link-bc-fff{
+//         &:hover {
+//             background-color: $color-bg-default;
+//         }
+//         // 上
+//         &:hover::before {
+//             content: none;
+//             color: none;
+//         }
+//         &::before {
+//             content: none;
+//         }
+//         // 下
+//         &:hover::after {
+//             content: none;
+//         }
+//         &::after {
+//             content: none;
+//         }
+//         &:hover .u-hover__text {
+//             opacity: 1;
+//         }
+//     }
+//     // serviceページ
+//     .u-hover__link-bc-f5{
+//         &:hover {
+//             background-color: $color-normal-gray;
+//         }
+//         // 上
+//         &:hover::before {
+//             content: none;
+//             color: none;
+//         }
+//         &::before {
+//             content: none;
+//         }
+//         // 下
+//         &:hover::after {
+//             content: none;
+//         }
+//         &::after {
+//             content: none;
+//         }
+//         &:hover .u-hover__text {
+//             opacity: 1;
+//         }
+//     }
+// }
