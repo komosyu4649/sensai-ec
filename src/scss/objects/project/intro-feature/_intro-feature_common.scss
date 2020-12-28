@@ -66,6 +66,10 @@
         // margin: 0 4rem 0 12rem;
         margin: 0 6rem 0 12rem;
         // margin: 0 4rem 0 0rem;
+        order: 1;
+    }
+    .p-intro-feature__item-img {
+        order: 2;
     }
     &:nth-child(1) {
         .p-intro-feature__item-img-item {
@@ -141,7 +145,8 @@
 .p-intro-feature__item-content-ttl {
     margin: 0 0 2rem;
     span {
-        font-size: 3rem;
+        // font-size: 3rem;
+        font-size: 3.4rem;
     }
 }
 .p-intro-feature__item-content-txt {
@@ -166,5 +171,144 @@
 
 
 @media screen and (max-width:768px) {
- 
+    .p-intro-feature {
+
+    }
+    .p-intro-feature__wrapper {
+    
+    }
+    .p-intro-feature__ttl {
+        span {
+            
+        }
+    }
+    .p-intro-feature__container {
+    
+    }
+    .p-intro-feature__list {
+    
+    }
+    .p-intro-feature__item {
+        @include flex();
+        flex-direction: column;
+        align-items: center;
+        // margin: 0 0 8rem;
+        &:nth-child(odd) {
+            // margin: 0 8rem 4rem;
+            // margin: 0 0rem 4rem;
+    
+        }
+        &:nth-child(even) {
+            // margin: 0 8rem 8rem;
+            // margin: 0 0rem 8rem;
+            margin: 8rem 0 14rem;
+        }
+    }
+    .p-intro-feature__item__imo {
+        .p-intro-feature__item-img {
+            margin: 0 0 0 24rem;
+            order: 1;
+        }
+        .p-intro-feature__item-contnt {
+            // margin: 0 4rem 0 12rem;
+            margin: -2rem 10rem 0;
+            // margin: 0 4rem 0 0rem;
+            order: 2;
+        }
+        &:nth-child(1) {
+            .p-intro-feature__item-img-item {
+                background-image: url("/asset/img/intro/feature-imo-1.jpeg");
+            }
+        }
+        &:nth-child(3) {
+            .p-intro-feature__item-img-item {
+                background-image: url("/asset/img/intro/feature-imo-2.jpeg");
+            }
+        }
+        &:nth-child(5) {
+            .p-intro-feature__item-img-item {
+                background-image: url("/asset/img/intro/feature-imo-3.jpeg");
+            }
+        }
+    }
+    .p-intro-feature__item__negi {
+        .p-intro-feature__item-img {
+            margin: 0 24rem 0 0;
+        }
+        .p-intro-feature__item-contnt {
+            // margin: 0 12rem 0 4rem;
+            // margin: 0 12rem 0 6rem;
+            margin: -2rem 10rem 0;
+            // margin: 0 0rem 0 4rem;
+        }
+        &:nth-child(2) {
+            .p-intro-feature__item-img-item {
+                background-image: url("/asset/img/intro/feature-negi-1.jpeg");
+            }
+        }
+        &:nth-child(4) {
+            .p-intro-feature__item-img-item {
+                background-image: url("/asset/img/intro/feature-negi-2.jpeg");
+            }
+        }
+        &:nth-child(6) {
+            .p-intro-feature__item-img-item {
+                background-image: url("/asset/img/intro/feature-negi-3.jpeg");
+            }
+        }
+    }
+    .p-intro-feature__item__1 {
+        .p-intro-feature__item-contnt {
+            // margin: 0 8rem 0 4rem;
+            margin: 0 0rem 0 4rem;
+            order: 2;
+        }
+        .p-intro-feature__item-img {
+            order: 1;
+        }
+    }
+    .p-intro-feature__item__2 {
+        .p-intro-feature__item-contnt {
+            // margin: 0 4rem 0 8rem;
+            margin: 0 4rem 0 0rem;
+            order: 2;
+        }
+        .p-intro-feature__item-img {
+            order: 1;
+        }
+    }
+    .p-intro-feature__item__3 {
+        .p-intro-feature__item-contnt {
+            // margin: 0 8rem 0 4rem;
+            margin: 0 0rem 0 4rem;
+            order: 2;
+        }
+        .p-intro-feature__item-img {
+            order: 1;
+        }
+    }
+    .p-intro-feature__item-contnt {
+        margin: -6rem 4rem 0 8rem;
+    }
+    .p-intro-feature__item-content-ttl {
+        display: inline-block;
+        margin: 0 0 2rem;
+        padding: 1rem 3rem;
+        background-color: $color-bg-default;
+        span {
+            // font-size: 6.2rem;
+            font-size: 7.8rem;
+        }
+    }
+    .p-intro-feature__item-content-txt {
+        margin: 0 0 0 6rem;
+        line-height: 2;
+    }
+    .p-intro-feature__item-img {
+    
+    }
+    .p-intro-feature__item-img-item {
+        width: 136rem;
+        height: 64rem;
+    }
 }

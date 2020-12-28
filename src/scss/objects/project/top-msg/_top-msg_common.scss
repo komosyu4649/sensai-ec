@@ -9,6 +9,7 @@
     justify-content: center;
     width: 120rem;
     margin: 12rem auto 0;
+    padding: 0 0 6rem;
     // padding: 0 10rem;
     // background-color: pink;
 }
@@ -22,7 +23,7 @@
     margin: 4rem 6rem 4rem 0;
 }
 .p-top-msg__body-content {
-
+    
 }
 .p-top-msg__body-content-txt {
     font-size: 2rem;
@@ -32,15 +33,27 @@
     }
 }
 .p-top-msg__body-img {
-
+    
 }
 .p-top-msg__body-img-item__main {
+    position: relative;
     // width: 40rem;
     width: 48rem;
     margin: 34rem -14rem -6rem 0rem;
     background-image: url("/asset/img/top/msg-main.jpg");
+    &::before {
+        position: absolute;
+        bottom: -4rem;
+        left: -20rem;
+        width: 48rem;
+        height: 36rem;
+        content: "";
+        background-color: $color-key;
+        z-index: -1;
+    }
 }
 .p-top-msg__body-img-item__sub {
+    position: relative;
     width: 20rem;
     margin: 10rem -16rem 0rem 0rem;
     background-image: url("/asset/img/top/msg-sub.jpg");
@@ -60,7 +73,9 @@
     }
     .p-top-msg__wrapper {
         width: 140rem;
-        margin: 18rem auto 0;
+        // margin: 18rem auto 0;
+        margin: 24rem auto 0;
+        padding: 0;
     }
     .p-top-msg__header {
         
@@ -86,11 +101,17 @@
     }
     .p-top-msg__body-img-item__main {
         width: 64rem;
-        margin: 56rem -24rem 0rem 0rem;
+        margin: 60rem -24rem 0rem 0rem;
+        &::before {
+            bottom: 28rem;
+            left: -20rem;
+            width: 48rem;
+            height: 72rem;
+        }
     }
     .p-top-msg__body-img-item__sub {
         width: 32rem;
-        margin: 16rem -36rem 0rem 0rem;
+        margin: 20rem -36rem 0rem 0rem;
         background-image: url("/asset/img/top/msg-sub.jpg");
     }
 }

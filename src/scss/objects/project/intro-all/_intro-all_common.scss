@@ -86,7 +86,8 @@
     span {
         // font-size: 4.6rem;
         // font-size: 3.6rem;
-        font-size: 3.2rem;
+        // font-size: 3.2rem;
+        font-size: 4rem;
     }
 }
 .p-intro-all__container-item-content-ttl__sub {
@@ -121,5 +122,79 @@
 
 
 @media screen and (max-width:768px) {
+    .p-intro-all {
 
+    }
+    .p-intro-all__wrapper {
+        
+    }
+    .p-intro-all__ttl {
+        span {
+    
+        }
+    }
+    .p-intro-all__container {
+    
+    }
+    .p-intro-all__container-list {
+        
+    }
+    .p-intro-all__container-item {
+        flex-direction: column;
+    }
+    .p-intro-all__container-item__imo {
+        .p-intro-all__container-item-img-item {
+            background-image: url("/asset/img/intro/all-imo.jpeg");
+        }
+    }
+    .p-intro-all__container-item__negi {
+        // margin: 8rem 0 0;
+        margin: 16rem 0 0;
+        .p-intro-all__container-item-img {
+            order: 1;
+        }
+        .p-intro-all__container-item-content {
+            margin: 4rem 0 0;
+            order: 2;
+        }
+        .p-intro-all__container-item-img-item {
+            background-image: url("/asset/img/intro/all-negi.jpeg");
+        }
+    }
+    .p-intro-all__container-item-img {
+    
+    }
+    .p-intro-all__container-item-img-item {
+        width: 140rem;
+        height: 92rem;
+    }
+    .p-intro-all__container-item-content {
+        // width: 140rem;
+        width: 132rem;
+        margin: 4rem 0 0;
+        &::before {
+            top: 6rem;
+            left: 4rem;
+            width: calc(100% - 8rem);
+            height: calc(100% - 12rem);
+        }
+    }
+    .p-intro-all__container-item-content-ttl {
+        margin: 0 0 1rem;
+        span {
+            // font-size: 4.6rem;
+            // font-size: 3.6rem;
+            // font-size: 8.2rem;
+            font-size: 9.6rem;
+        }
+    }
+    .p-intro-all__container-item-content-ttl__sub {
+        font-size: 4rem;
+    }
+    .p-intro-all__container-item-content-txt {
+        margin: 4rem 0 2.5rem;
+    }
+    .p-intro-all__container-item-content-link {
+    
+    }
 }

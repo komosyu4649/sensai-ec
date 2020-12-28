@@ -4,7 +4,8 @@
 .p-footer__wrapper {
     @include flex();
     flex-direction: row;
-    margin: 12rem 0 0;
+    // margin: 12rem 0 0;
+    margin: 16rem 0 0;
 }
 .p-footer__info {
     width: 77.5%;
@@ -99,7 +100,8 @@ small {
     }
     .p-footer__wrapper {
         flex-direction: column;
-        margin: 20rem 0 0;
+        // margin: 20rem 0 0;
+        margin: 28rem 0 0;
     }
     .p-footer__info {
         width: 100%;
@@ -158,6 +160,7 @@ small {
     .p-footer__menu {
         width: 100%;
         border-top: 4px solid $color-key;
+        background-color: $color-bg-default;
         order: 1;
     }
     .p-footer__menu-list {
