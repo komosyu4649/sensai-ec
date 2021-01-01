@@ -1,23 +1,6 @@
-.p-producer-personal {
-
-}
-.p-producer-personal__wrapper {
-
-}
-.p-producer-personal__ttl {
-    span {
-        
-    }
-}
-.p-producer-personal__container {
-
-}
 .p-producer-personal__head {
     width: 92rem;
     margin: 0 auto;
-}
-.p-producer-personal__head-name {
-
 }
 .p-producer-personal__head-name-ttl {
     span {
@@ -47,7 +30,6 @@
         width: 8rem;
         height: 8rem;
         content: "";
-        // background-color: $color-gray;
         background-color: $color-key;
         z-index: -1;
     }
@@ -55,13 +37,6 @@
 .p-producer-personal__head-intro-txt {
     position: relative;
     padding: 0 0 0 .8rem;
-    // overflow: hidden;
-    // z-index: -1;
-    // &::before {
-    //     position: absolute;
-    //     content: "ここに自己紹介的なメッセージが入ります。 ここに自己紹介的なメッセージが入ります。";
-    //     color: pink;
-    // }
     &::before {
         position: absolute;
         top: 0;
@@ -76,12 +51,8 @@
 .p-producer-personal__block {
     @include flex();
     flex-direction: row;
-    // margin: 6rem 0 0;
     width: 92rem;
     margin: 6rem auto 0;
-}
-.p-producer-personal__img {
-
 }
 .p-producer-personal__img-item {
     width: 48rem;
@@ -95,8 +66,6 @@
     position: relative;
 }
 .p-producer-personal__content-item {
-    // position: fixed;
-    // top: 0;
     margin: 0 0 12rem;
     &:last-child {
         margin: 0;
@@ -109,18 +78,8 @@
         @include flex();
         align-items: center;
         flex-shrink: 0;
-        // margin: 0 0 0 2rem;
         font-size: 1.8rem;
         font-weight: $bold;
-        // &::before {
-        //     position: absolute;
-        //     top: calc(50% + -.5rem);
-        //     left: -2rem;
-        //     width: 1rem;
-        //     height: 1rem;
-        //     content: "";
-        //     background-color: #29102E;
-        // }
         &::after {
             display: block;
             flex-grow: 1;
@@ -158,5 +117,50 @@
 
 
 @media screen and (max-width:768px) {
-    
+    .p-producer-personal__head {
+        width: 120rem;
+    }
+    .p-producer-personal__head-name-ttl {
+        span {
+            font-size: 6rem;
+        }
+    }
+    .p-producer-personal__head-name-ttl-sub {
+        font-size: 4.2rem;
+    }
+    .p-producer-personal__head-intro {
+        &::before {
+            top: -8rem;
+            height: 40rem;
+        }
+    }
+    .p-producer-personal__block {
+        flex-direction: column;
+        align-items: center;
+        width: 140rem;
+    }
+    .p-producer-personal__img-item {
+        width: 100rem;
+        height: 120rem;
+    }
+    .p-producer-personal__content {
+        margin: 14rem 0 0;
+    }
+    .p-producer-personal__content-item {
+        margin: 0 0 10rem;
+    }
+    .p-producer-personal__content-item-ttl {
+        margin: 0 0 2.4rem;
+        span {
+            font-size: 4.8rem;
+        }
+    }
+    .p-producer-personal__content-item-txt {
+        margin: 0 0 0 2rem;
+        font-size: 4.6rem;
+        &::before {
+            top: 3.5rem;
+            left: 3.5rem;
+        }
+    }
 }

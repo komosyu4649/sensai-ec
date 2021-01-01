@@ -4,13 +4,10 @@
 .p-footer__wrapper {
     @include flex();
     flex-direction: row;
-    // margin: 12rem 0 0;
     margin: 16rem 0 0;
 }
 .p-footer__info {
     width: 77.5%;
-    // padding: 8rem 16rem 6rem;
-    // padding: 12rem 16rem 8rem;
     padding: 12rem 24rem 8rem;
     background-color: $color-key;
     color: $color-bg-default;
@@ -23,9 +20,7 @@
     &::before {
         position: absolute;
         bottom: -.5rem;
-        // left: -16rem;
         left: -24rem;
-        // width: 80rem;
         width: 78rem;
         height: 4rem;
         content: "";
@@ -47,9 +42,6 @@
 .p-footer__info-body {
     margin: 4rem 0 0;
 }
-.p-footer__info-body-list {
-
-}
 .p-footer__info-body-item {
     margin: 0 0 2rem;
 }
@@ -68,9 +60,6 @@
     align-items: center;
     width: 22.5%;
     background-color: $color-normal-gray;
-}
-.p-footer__menu-list {
-    
 }
 .p-footer__menu-item {
     margin: 1.4rem 0;
@@ -100,20 +89,14 @@ small {
     }
     .p-footer__wrapper {
         flex-direction: column;
-        // margin: 20rem 0 0;
         margin: 28rem 0 0;
     }
     .p-footer__info {
         width: 100%;
-        // padding: 16rem 8rem 12rem;
         padding: 8rem 8rem 12rem;
         order: 2;
     }
     .p-footer__info-header {
-        position: relative;
-        @include flex();
-        flex-direction: row;
-        z-index: 1;
         &::before {
             bottom: -1rem;
             left: -8rem;
@@ -128,7 +111,6 @@ small {
     .p-footer__info-header-ttl {
         span {
             font-size: 5.2rem;
-            color: $color-key;
         }
     }
     .p-footer__info-body {
@@ -138,7 +120,6 @@ small {
         @include flex();
         flex-direction: row;
         justify-content: space-between;
-        // align-content: space-between;
         flex-wrap: wrap;
     }
     .p-footer__info-body-item {
@@ -154,8 +135,6 @@ small {
     }
     .p-footer__info-body-item-body {
         font-size: 4rem;
-        color: $color-bg-default;
-        border-bottom: 1px solid $color-bg-default;
     }
     .p-footer__menu {
         width: 100%;
@@ -174,10 +153,6 @@ small {
         font-size: 4.6rem;
     }
     small {
-        @include flex();
-        justify-content: center;
-        padding: 1rem;
-        font-size: 1.2rem;
-        text-align: center;
+        font-size: 4rem;
     }
 }

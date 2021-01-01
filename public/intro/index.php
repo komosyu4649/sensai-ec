@@ -1,3 +1,5 @@
+<?php require($_SERVER['DOCUMENT_ROOT'] . '/_inc/init.php'); ?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -36,54 +38,7 @@
 
 <div id="wrapper">
 
-
-    <!-- サブメニュー展開時背景 -->
-    <div class="p-header__bg-header u-none__1200"></div>
-    <div class="p-header__bg-main u-none__1200"></div>
-
-    <header class="l-header">
-        <div class="p-header">
-            <div class="p-header__wrapper">
-                <h1 class="p-header__logo">
-                    <a class="p-header__logo-link" href="">
-                        <img class="p-header__logo-img" src="/asset/img/logo/logo.png" alt="株式会社 泉菜">
-                    </a>
-                </h1>
-                <div class="p-header__block">
-                    <div class="p-header__target">
-                        <a class="p-header__target-link" href="">
-                            <img class="p-header__target-link-img" src="/asset/img/logo/insta.png" alt="インスタグラム">
-                        </a>
-                        <a class="p-header__target-link" href="">
-                            <img class="p-header__target-link-img" src="/asset/img/logo/shop.png" alt="ショッピングカート">
-                        </a>
-                    </div>
-                    <nav class="p-header__menu">
-                        <ul class="p-header__menu-list">
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">トップ</a>
-                            </li>
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">商品紹介</a>
-                            </li>
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">生産者の声</a>
-                            </li>
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">販売商品</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="p-header__btn">
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                </button>
-            </div>
-        </div>
-    </header>
-
+<?php require(HEADER_FILE); ?>
 
     <main id="page">
         <div id="contents">
@@ -328,66 +283,13 @@
         </div>
     </main>
 
-
-    <footer class="l-footer">
-        <div class="p-footer">
-            <div class="p-footer__wrapper">
-                <div class="p-footer__info">
-                    <div class="p-footer__info-header">
-                        <img class="p-footer__info-header-img" src="/asset/img/logo/logo.png" alt="">
-                        <h2 class="p-footer__info-header-ttl">
-                            <span class="">泉菜株式会社</span>
-                        </h2>
-                    </div>
-                    <div class="p-footer__info-body">
-                        <ul class="p-footer__info-body-list">
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">所在地 : </span>
-                                <a class="p-footer__info-body-item-body" href="">山形県新庄市大字泉田359番地</a>
-                            </li>
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">MAIL : </span>
-                                <a class="p-footer__info-body-item-body" href="">okusato@sensai.jp</a>
-                            </li>
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">FAX : </span>
-                                <a class="p-footer__info-body-item-body" href="">0233-32-0745</a>
-                            </li>
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">電話番号 : </span>
-                                <a class="p-footer__info-body-item-body" href="">0233-25-3298</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <nav class="p-footer__menu">
-                    <ul class="p-footer__menu-list">
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">トップ</a>
-                        </li>
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">商品紹介</a>
-                        </li>
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">生産者の声</a>
-                        </li>
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">販売商品</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <small>Copyright sensai. All Rights Reserved.</small>
-        </div>
-    </footer>
-
+    <?php require(FOOTER_FILE); ?>
 
 </div>
 
 
-
-
 <script src="/asset/js/app.bundle.js" defer></script>
+
 
 </body>
 </html>

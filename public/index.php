@@ -1,3 +1,5 @@
+<?php require($_SERVER['DOCUMENT_ROOT'] . '/_inc/init.php'); ?>
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -36,54 +38,7 @@
 
 <div id="wrapper">
 
-
-    <!-- サブメニュー展開時背景 -->
-    <div class="p-header__bg-header u-none__1200"></div>
-    <div class="p-header__bg-main u-none__1200"></div>
-
-    <header class="l-header">
-        <div class="p-header">
-            <div class="p-header__wrapper">
-                <h1 class="p-header__logo">
-                    <a class="p-header__logo-link" href="">
-                        <img class="p-header__logo-img" src="/asset/img/logo/logo.png" alt="株式会社 泉菜">
-                    </a>
-                </h1>
-                <div class="p-header__block">
-                    <div class="p-header__target">
-                        <a class="p-header__target-link" href="">
-                            <img class="p-header__target-link-img" src="/asset/img/logo/insta.png" alt="インスタグラム">
-                        </a>
-                        <a class="p-header__target-link" href="">
-                            <img class="p-header__target-link-img" src="/asset/img/logo/shop.png" alt="ショッピングカート">
-                        </a>
-                    </div>
-                    <nav class="p-header__menu">
-                        <ul class="p-header__menu-list">
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">トップ</a>
-                            </li>
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">商品紹介</a>
-                            </li>
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">生産者の声</a>
-                            </li>
-                            <li class="p-header__menu-item">
-                                <a class="p-header__menu-link" href="">販売商品</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <button class="p-header__btn">
-                    <span class=""></span>
-                    <span class=""></span>
-                    <span class=""></span>
-                </button>
-            </div>
-        </div>
-    </header>
-
+    <?php require(HEADER_FILE); ?>
 
     <main id="page">
         <div id="contents">
@@ -95,6 +50,9 @@
                             <span class="">ここにメッセージが</span>
                             <span class="">入ります</span>
                         </h2>
+                        <p class="p-top-fv__msg-txt">
+                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>ここにテキストが入ります。ここにテキストが入ります。
+                        </p>
                     </div>
                 </div>
             </section>
@@ -102,7 +60,7 @@
             <section class="p-top-msg">
                 <div class="p-top-msg__wrapper">
                     <div class="p-top-msg__header">
-                        <h2 class="p-top-msg__header-ttl">
+                        <h2 class="js-scroll__obs p-top-msg__header-ttl">
                             <span class="">ここにタイトルが入ります　。</span>
                         </h2>
                     </div>
@@ -120,10 +78,10 @@
                             </p>
                         </div>
                         <div class="p-top-msg__body-img p-top-msg__body-img__main">
-                            <div class="u-img__bg-def p-top-msg__body-img-item__main"></div>
+                            <div class="js-scroll__obs u-img__bg-def p-top-msg__body-img-item__main"></div>
                         </div>
                         <div class="p-top-msg__body-img p-top-msg__body-img__sub">
-                            <div class="u-img__bg-def p-top-msg__body-img-item__sub"></div>
+                            <div class="js-scroll__obs u-img__bg-def p-top-msg__body-img-item__sub"></div>
                         </div>
                     </div>
                 </div>
@@ -137,13 +95,13 @@
                     <div class="u-width__sec-container-full p-top-intro__container">
                         <ul class="p-top-intro__list">
                             <li class="p-top-intro__item p-top-intro__item__imo">
-                                <div class="p-top-intro__item-img">
-                                    <!-- <a class="p-top-intro__tem-img-link" href=""> -->
+                                <div class="js-scroll__obs p-top-intro__item-img">
+                                    <a class="p-top-intro__tem-img-link" href="">
                                         <div class="u-img__bg-def p-top-intro__item-img-item"></div>
-                                    <!-- </a> -->
+                                    </a>
                                 </div>
                                 <div class="p-top-intro__item-content">
-                                    <h3 class="p-top-intro__item-content-ttl">
+                                    <h3 class="js-scroll__obs p-top-intro__item-content-ttl">
                                         <span class="">〇〇里芋</span>
                                     </h3>
                                     <p class="c-txt__sec p-top-intro__item-content-txt">
@@ -153,13 +111,13 @@
                                 </div>
                             </li>
                             <li class="p-top-intro__item p-top-intro__item__negi">
-                                <div class="p-top-intro__item-img">
-                                    <!-- <a class="p-top-intro__citem-img-link" href=""> -->
+                                <div class="js-scroll__obs p-top-intro__item-img">
+                                    <a class="p-top-intro__citem-img-link" href="">
                                         <div class="u-img__bg-def p-top-intro__item-img-item"></div>
-                                    <!-- </a> -->
+                                    </a>
                                 </div>
                                 <div class="p-top-intro__item-content">
-                                    <h3 class="p-top-intro__item-content-ttl">
+                                    <h3 class="js-scroll__obs p-top-intro__item-content-ttl">
                                         <span class="">〇〇ねぎ</span>
                                     </h3>
                                     <p class="c-txt__sec p-top-intro__item-content-txt">
@@ -179,11 +137,11 @@
                         <span class="">生産者の声</span>
                     </h2>
                     <div class="u-width__sec-container-full p-top-producer__container">
-                        <div class="p-top-producer__img">
+                        <div class="js-scroll__obs p-top-producer__img">
                             <div class="u-img__bg-def p-top-producer__img-item"></div>
                         </div>
                         <div class="p-top-producer__content">
-                            <h3 class="p-top-producer__content-ttl">
+                            <h3 class="js-scroll__obs p-top-producer__content-ttl">
                                 <span class="">ここにメッセージが入ります</span>
                             </h3>
                             <p class="p-top-producer__content-txt">
@@ -212,7 +170,7 @@
                         <ul class="p-top-purchase__list"> 
                             <li class="p-top-purchase__item p-top-purchase__item__imo">
                                 <a class="p-top-purchase__item-link" href="">
-                                    <div class="p-top-purchase__item-img">
+                                    <div class="js-scroll__obs p-top-purchase__item-img">
                                         <div class="u-img__bg-def p-top-purchase__item-img-item"></div>
                                     </div>
                                     <div class="p-top-purchase__item-content">
@@ -225,7 +183,7 @@
                             </li>
                             <li class="p-top-purchase__item p-top-purchase__item__negi">
                                 <a class="p-top-purchase__item-link" href="">
-                                    <div class="p-top-purchase__item-img">
+                                    <div class="js-scroll__obs p-top-purchase__item-img">
                                         <div class="u-img__bg-def p-top-purchase__item-img-item"></div>
                                     </div>
                                     <div class="p-top-purchase__item-content">
@@ -244,59 +202,7 @@
         </div>
     </main>
 
-
-    <footer class="l-footer">
-        <div class="p-footer">
-            <div class="p-footer__wrapper">
-                <div class="p-footer__info">
-                    <div class="p-footer__info-header">
-                        <img class="p-footer__info-header-img" src="/asset/img/logo/logo.png" alt="">
-                        <h2 class="p-footer__info-header-ttl">
-                            <span class="">泉菜株式会社</span>
-                        </h2>
-                    </div>
-                    <div class="p-footer__info-body">
-                        <ul class="p-footer__info-body-list">
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">所在地 : </span>
-                                <a class="p-footer__info-body-item-body" href="">山形県新庄市大字泉田359番地</a>
-                            </li>
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">MAIL : </span>
-                                <a class="p-footer__info-body-item-body" href="">okusato@sensai.jp</a>
-                            </li>
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">FAX : </span>
-                                <a class="p-footer__info-body-item-body" href="">0233-32-0745</a>
-                            </li>
-                            <li class="p-footer__info-body-item">
-                                <span class="p-footer__info-body-item-header">電話番号 : </span>
-                                <a class="p-footer__info-body-item-body" href="">0233-25-3298</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <nav class="p-footer__menu">
-                    <ul class="p-footer__menu-list">
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">トップ</a>
-                        </li>
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">商品紹介</a>
-                        </li>
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">生産者の声</a>
-                        </li>
-                        <li class="p-footer__menu-item">
-                            <a class="p-footer__menu-link" href="">販売商品</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <small>Copyright sensai. All Rights Reserved.</small>
-        </div>
-    </footer>
-
+    <?php require(FOOTER_FILE); ?>
 
 </div>
 
