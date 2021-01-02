@@ -42,7 +42,8 @@
         top: 0;
         left: .8rem;
         width: 7rem;
-        height: 100%;
+        // height: 100%;
+        height: 60%;
         content: attr(data-txt);
         color: $color-bg-default;
         overflow: hidden;

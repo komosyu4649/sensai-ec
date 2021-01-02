@@ -69,7 +69,7 @@
                     <div class="u-width__sec-container-full p-intro-all__container">
                         <ul class="p-intro-all__container-list">
                             <li class="p-intro-all__container-item p-intro-all__container-item__imo">
-                                <div class="p-intro-all__container-item-img">
+                                <div class="js-scroll__obs p-intro-all__container-item-img">
                                     <!-- <a class="p-intro-all__container-item-img-link" href=""> -->
                                         <div class="u-img__bg-def p-intro-all__container-item-img-item"></div>
                                     <!-- </a> -->
@@ -88,7 +88,7 @@
                                 </div>
                             </li>
                             <li class="p-intro-all__container-item p-intro-all__container-item__negi">
-                                <div class="p-intro-all__container-item-img">
+                                <div class="js-scroll__obs p-intro-all__container-item-img">
                                     <!-- <a class="p-intro-all__container-item-img-link" href=""> -->
                                         <div class="u-img__bg-def p-intro-all__container-item-img-item"></div>
                                     <!-- </a> -->
@@ -121,7 +121,7 @@
                         <ul class="p-intro-feature__list">
                             <li class="p-intro-feature__item p-intro-feature__item__imo">
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__1"> -->
-                                <div class="p-intro-feature__item-img">
+                                <div class="js-scroll__obs p-intro-feature__item-img">
                                     <div class="u-img__bg-def p-intro-feature__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -137,7 +137,7 @@
                             </li>
                             <li class="p-intro-feature__item p-intro-feature__item__negi">
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__1"> -->
-                                <div class="p-intro-feature__item-img">
+                                <div class="js-scroll__obs p-intro-feature__item-img">
                                     <div class="u-img__bg-def p-intro-feature__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -153,7 +153,7 @@
                             </li>
                             <li class="p-intro-feature__item p-intro-feature__item__imo">
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__2"> -->
-                                <div class="p-intro-feature__item-img">
+                                <div class="js-scroll__obs p-intro-feature__item-img">
                                     <div class="u-img__bg-def p-intro-feature__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -169,7 +169,7 @@
                             </li>
                             <li class="p-intro-feature__item p-intro-feature__item__negi">
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__2"> -->
-                                <div class="p-intro-feature__item-img">
+                                <div class="js-scroll__obs p-intro-feature__item-img">
                                     <div class="u-img__bg-def p-intro-feature__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -185,7 +185,7 @@
                             </li>
                             <li class="p-intro-feature__item p-intro-feature__item__imo">
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__3"> -->
-                                <div class="p-intro-feature__item-img">
+                                <div class="js-scroll__obs p-intro-feature__item-img">
                                     <div class="u-img__bg-def p-intro-feature__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -201,7 +201,7 @@
                             </li>
                             <li class="p-intro-feature__item p-intro-feature__item__negi">
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__3"> -->
-                                <div class="p-intro-feature__item-img">
+                                <div class="js-scroll__obs p-intro-feature__item-img">
                                     <div class="u-img__bg-def p-intro-feature__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -239,12 +239,12 @@
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                     </p>
                                 </div>
-                                <div class="p-intro-flow__item-img">
+                                <div class="js-scroll__obs p-intro-flow__item-img">
                                     <div class="u-img__bg-def p-intro-flow__item-img-item"></div>
                                 </div>
                             </li>
                             <li class="p-intro-flow__item">
-                                <div class="p-intro-flow__item-img">
+                                <div class="js-scroll__obs p-intro-flow__item-img">
                                     <div class="u-img__bg-def p-intro-flow__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-flow__item-content">
@@ -260,7 +260,7 @@
                                 </div>
                             </li>
                             <li class="p-intro-flow__item">
-                                <div class="p-intro-flow__item-img">
+                                <div class="js-scroll__obs p-intro-flow__item-img">
                                     <div class="u-img__bg-def p-intro-flow__item-img-item"></div>
                                 </div>
                                 <div class="p-intro-flow__item-content">

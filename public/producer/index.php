@@ -60,19 +60,19 @@
                 </div>
             </section>
 
-            <div class="p-producer-gallery">
+            <div class="js-scroll__obs p-producer-gallery">
                 <div class="u-width__sec p-producer-gallery__wrapper">
                     <div class="p-producer-gallery__img">
-                        <div class="u-img__bg-def p-producer-gallery__img-item"></div>
+                        <div class="p-producer-gallery__img-item"></div>
                     </div>
                     <div class="p-producer-gallery__img">
-                        <div class="u-img__bg-def p-producer-gallery__img-item"></div>
+                        <div class="p-producer-gallery__img-item"></div>
                     </div>
                     <div class="p-producer-gallery__img">
-                        <div class="u-img__bg-def p-producer-gallery__img-item"></div>
+                        <div class="p-producer-gallery__img-item"></div>
                     </div>
                     <div class="p-producer-gallery__img">
-                        <div class="u-img__bg-def p-producer-gallery__img-item"></div>
+                        <div class="p-producer-gallery__img-item"></div>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
                             </div>
                         </div>
                         <div class="u-width__sec-container-full p-producer-personal__block">
-                            <div class="p-producer-personal__img">
+                            <div class="js-scroll__obs p-producer-personal__img">
                                 <div class="u-img__bg-def p-producer-personal__img-item"></div>
                             </div>
                             <div class="p-producer-personal__content">
