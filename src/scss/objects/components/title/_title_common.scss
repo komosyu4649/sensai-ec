@@ -33,6 +33,20 @@
     }
 // }
 
+.c-ttl__obs {
+    display: inline-block;
+    transform: translateX(20%);
+    opacity: 0;
+}
+
+.c-ttl__load {
+    transform: translateX(20%);
+    opacity: 0;
+    &:nth-child(2) {
+        transform: translateX(-20%);
+    }
+}
+
 
 
 

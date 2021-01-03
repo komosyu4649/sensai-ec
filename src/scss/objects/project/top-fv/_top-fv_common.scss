@@ -4,6 +4,10 @@
     align-items: center;
     height: calc(100vh - 8rem);
     margin: 0 0 0 20rem;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    // background-origin: center;
+    background-position: center;
     background-image: url("/asset/img/top/fv-bg.jpeg");
     &::before {
         position: absolute;
@@ -33,6 +37,8 @@
     font-size: 1.8rem;
     color: $color-bg-default;
     line-height: 2;
+    transform: translateX(8%);
+    opacity: 0;
 }
 
 

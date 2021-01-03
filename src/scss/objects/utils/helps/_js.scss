@@ -198,4 +198,60 @@
             ;
         }
     }
+
+    .p-top-msg__body-img-item__main {
+        transform: translate3d(0rem, 34rem, 0);
+        transition:
+            transform 1.4s cubic-bezier(.5,.06,.06,.95),
+        ;
+    }
+    .p-top-msg__body-img-item__sub {
+        transform: translate3d(16rem, 10rem, 0);
+        transition:
+            transform 1s cubic-bezier(.5,.06,.06,.95),
+        ;
+    }
+
+    .c-ttl__obs {
+        transform: translateX(0%);
+        opacity: 1;
+        transition:
+            transform 1s cubic-bezier(.5,.06,.06,.95),
+            opacity .8s,
+        ;
+    }
+}
+
+
+.is-load {
+    .p-top-fv__wrapper {
+        background-size: 100%;
+        transition:
+            background-size 4.2s cubic-bezier(.5,.06,.06,.95),
+        ;
+    }
+    .c-ttl__load {
+        transform: translateX(0%);
+        opacity: 1;
+        transition:
+            transform 1.6s .4s cubic-bezier(.5,.06,.06,.95),
+            opacity 1.6s .4s,
+        ;
+        &:nth-child(2) {
+            transform: translateX(0%);
+            opacity: 1;
+            transition:
+                transform 1.6s .8s cubic-bezier(.5,.06,.06,.95),
+                opacity 1.6s .8s,
+            ;
+        }
+    }
+    .p-top-fv__msg-txt {
+        transform: translateX(0%);
+        opacity: 1;
+        transition:
+            transform 1.6s 1s cubic-bezier(.5,.06,.06,.95),
+            opacity 1.6s 1s,
+        ;
+    }
 }

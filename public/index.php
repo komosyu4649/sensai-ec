@@ -43,12 +43,12 @@
     <main id="page">
         <div id="contents">
             
-            <section class="p-top-fv">
-                <div class="u-img__bg-cover p-top-fv__wrapper">
+            <section class="js-load p-top-fv">
+                <div class="p-top-fv__wrapper">
                     <div class="p-top-fv__msg">
                         <h2 class="p-top-fv__msg-ttl">
-                            <span class="">ここにメッセージが</span>
-                            <span class="">入ります</span>
+                            <span class="c-ttl__load">ここにメッセージが</span>
+                            <span class="c-ttl__load">入ります</span>
                         </h2>
                         <p class="p-top-fv__msg-txt">
                             ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。<br>ここにテキストが入ります。ここにテキストが入ります。
@@ -58,10 +58,10 @@
             </section>
 
             <section class="p-top-msg">
-                <div class="p-top-msg__wrapper">
+                <div class="js-scroll__obs p-top-msg__wrapper">
                     <div class="p-top-msg__header">
-                        <h2 class="js-scroll__obs p-top-msg__header-ttl">
-                            <span class="">ここにタイトルが入ります　。</span>
+                        <h2 class="p-top-msg__header-ttl">
+                            <span class="c-ttl__obs">ここにタイトルが入ります　。</span>
                         </h2>
                     </div>
                     <div class="p-top-msg__body">
@@ -78,10 +78,10 @@
                             </p>
                         </div>
                         <div class="p-top-msg__body-img p-top-msg__body-img__main">
-                            <div class="js-scroll__obs u-img__bg-def p-top-msg__body-img-item__main"></div>
+                            <div class="p-top-msg__body-img-item__main"></div>
                         </div>
                         <div class="p-top-msg__body-img p-top-msg__body-img__sub">
-                            <div class="js-scroll__obs u-img__bg-def p-top-msg__body-img-item__sub"></div>
+                            <div class="p-top-msg__body-img-item__sub"></div>
                         </div>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                                 </div>
                                 <div class="p-top-intro__item-content">
                                     <h3 class="js-scroll__obs p-top-intro__item-content-ttl">
-                                        <span class="">〇〇里芋</span>
+                                        <span class="c-ttl__obs">〇〇里芋</span>
                                     </h3>
                                     <p class="c-txt__sec p-top-intro__item-content-txt">
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
@@ -124,7 +124,7 @@
                                 </div>
                                 <div class="p-top-intro__item-content">
                                     <h3 class="js-scroll__obs p-top-intro__item-content-ttl">
-                                        <span class="">〇〇ねぎ</span>
+                                        <span class="c-ttl__obs">〇〇ねぎ</span>
                                     </h3>
                                     <p class="c-txt__sec p-top-intro__item-content-txt">
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
@@ -187,26 +187,26 @@
                     </div>
                     <div class="u-width__sec-container p-top-purchase__container">
                         <ul class="p-top-purchase__list"> 
-                            <li class="p-top-purchase__item p-top-purchase__item__imo">
+                            <li class="js-scroll__obs p-top-purchase__item p-top-purchase__item__imo">
                                 <a class="p-top-purchase__item-link" href="">
-                                    <div class="js-scroll__obs p-top-purchase__item-img">
+                                    <div class="p-top-purchase__item-img">
                                         <div class="u-img__bg-def p-top-purchase__item-img-item"></div>
                                     </div>
                                     <div class="p-top-purchase__item-content">
-                                        <h3 class="p-top-purchase__item-content-ttl">〇〇里芋</h3>
+                                        <h3 class="c-ttl__obs p-top-purchase__item-content-ttl">〇〇里芋</h3>
                                         <div class="p-top-purchase__item-content-info">
                                             <span class="p-top-purchase__item-content-info-num">¥0,000 / 0kg</span>
                                         </div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="p-top-purchase__item p-top-purchase__item__negi">
+                            <li class="js-scroll__obs p-top-purchase__item p-top-purchase__item__negi">
                                 <a class="p-top-purchase__item-link" href="">
-                                    <div class="js-scroll__obs p-top-purchase__item-img">
+                                    <div class="p-top-purchase__item-img">
                                         <div class="u-img__bg-def p-top-purchase__item-img-item"></div>
                                     </div>
                                     <div class="p-top-purchase__item-content">
-                                        <h3 class="p-top-purchase__item-content-ttl">〇〇ねぎ</h3>
+                                        <h3 class="c-ttl__obs p-top-purchase__item-content-ttl">〇〇ねぎ</h3>
                                         <div class="p-top-purchase__item-content-info">
                                             <span class="p-top-purchase__item-content-info-num">¥0,000 / 0kg</span>
                                         </div>
