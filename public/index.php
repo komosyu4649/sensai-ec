@@ -89,9 +89,15 @@
 
             <section class="p-top-intro">
                 <div class="u-width__sec p-top-intro__wrapper">
-                    <h2 class="c-ttl__sec p-top-intro__ttl">
-                        <span class="">商品紹介</span>
-                    </h2>
+                    <div class="js-scroll__obs p-top-intro__ttl-obs">
+                        <h2 class="c-ttl__sec p-top-intro__ttl">
+                            <!-- <span class="">商品紹介</span> -->
+                            <span class="" data-ttl="商">商</span>
+                            <span class="" data-ttl="品">品</span>
+                            <span class="" data-ttl="紹">紹</span>
+                            <span class="" data-ttl="介">介</span>
+                        </h2>
+                    </div>
                     <div class="u-width__sec-container-full p-top-intro__container">
                         <ul class="p-top-intro__list">
                             <li class="p-top-intro__item p-top-intro__item__imo">
@@ -133,9 +139,16 @@
 
             <section class="p-top-producer">
                 <div class="u-width__sec p-top-producer__wrapper">
-                    <h2 class="c-ttl__sec p-top-producer__ttl">
-                        <span class="">生産者の声</span>
-                    </h2>
+                    <div class="js-scroll__obs p-top-producer__ttl-obs">
+                        <h2 class="c-ttl__sec p-top-producer__ttl">
+                            <!-- <span class="">生産者の声</span> -->
+                            <span class="" data-ttl="生">生</span>
+                            <span class="" data-ttl="産">産</span>
+                            <span class="" data-ttl="者">者</span>
+                            <span class="" data-ttl="の">の</span>
+                            <span class="" data-ttl="声">声</span>
+                        </h2>
+                    </div>
                     <div class="u-width__sec-container-full p-top-producer__container">
                         <div class="js-scroll__obs p-top-producer__img">
                             <div class="u-img__bg-def p-top-producer__img-item"></div>
@@ -163,9 +176,15 @@
 
             <section class="p-top-purchase">
                 <div class="u-width__sec p-top-purchase__wrapper">
-                    <h2 class="c-ttl__sec p-top-purchase__ttl">
-                        <span class="">販売商品</span>
-                    </h2>
+                    <div class="js-scroll__obs p-top-purchase__ttl-obs">
+                        <h2 class="c-ttl__sec p-top-purchase__ttl">
+                            <!-- <span class="">販売商品</span> -->
+                            <span class="" data-ttl="販">販</span>
+                            <span class="" data-ttl="売">売</span>
+                            <span class="" data-ttl="商">商</span>
+                            <span class="" data-ttl="品">品</span>
+                        </h2>
+                    </div>
                     <div class="u-width__sec-container p-top-purchase__container">
                         <ul class="p-top-purchase__list"> 
                             <li class="p-top-purchase__item p-top-purchase__item__imo">

@@ -1,4 +1,8 @@
 const targets = document.querySelectorAll('.js-scroll__obs');
+// const words = document.querySelectorAll('.c-ttl__sec span');
+// for(let i = 0; i < words.length; i++) {
+//     console.log(words[i]);
+// }
 
 const options = {
     root: null,
@@ -15,7 +19,7 @@ for(let i = 0; i < targets.length; i++) {
 function callback(entries) {
     for(let i = 0; i < entries.length; i++) {
         if(entries[i].isIntersecting) {
-            setEvent(entries[i].target)
+            setEvent(entries[i].target);
         }
     }
 }

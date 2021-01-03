@@ -1,8 +1,10 @@
 .js-scroll__obs {
     .u-img__bg-def {
         position: relative;
+        // transform: scaleX(0);
         transform: scaleY(0);
         transform-origin: top;
+        // transform-origin: left;
         &::after {
             position: absolute;
             top: 0;
@@ -11,9 +13,44 @@
             height: 100%;
             content: "";
             background-color: $color-key;
+            // transform: scaleX(1);
             transform: scaleY(1);
             transform-origin: top;
+            // transform-origin: left;
         }
+    }
+}
+.c-ttl__sec {
+    overflow: hidden;
+    span {
+        &:nth-child(1) {
+            transform: translateY(0%);
+        }
+        &:nth-child(2) {
+            transform: translateY(0%);
+        }
+        &:nth-child(3) {
+            transform: translateY(0%);
+        }
+        &:nth-child(4) {
+            transform: translateY(0%);
+        }
+        &:nth-child(5) {
+            transform: translateY(0%);
+        }
+        &:nth-child(6) {
+            transform: translateY(0%);
+        }
+        &:nth-child(7) {
+            transform: translateY(0%);
+        }
+        &:nth-child(8) {
+            transform: translateY(0%);
+        }
+    }
+    &::after {
+        transform: scaleX(0);
+        transform-origin: left;
     }
 }
 
@@ -36,6 +73,7 @@
 .is-scroll__obs {
     .u-img__bg-def {
         position: relative;
+        // transform: scaleX(1);
         transform: scaleY(1);
         transition:
             transform 1.2s cubic-bezier(.46,.11,.04,.96),
@@ -48,16 +86,15 @@
             height: 100%;
             content: "";
             background-color: $color-key;
+            // transform: scaleX(0);
             transform: scaleY(0);
             transition:
                 transform .8s 1s cubic-bezier(.5,.06,.06,.95),
             ;
             transform-origin: bottom;
+            // transform-origin: right;
         }
     }
-}
-    
-.is-scroll__obs {
     .p-producer-gallery__img {
         &:nth-child(1) {
             .p-producer-gallery__img-item {
@@ -87,9 +124,78 @@
             .p-producer-gallery__img-item {
                 transform: rotate(5deg) translateX(0rem);
                 transition:
-                    transform 1.6s cubic-bezier(.5,.06,.06,.95)
+                    transform 1.6s cubic-bezier(.5,.06,.06,.95),
                 ;
             }
+        }
+    }
+    .c-ttl__sec {
+        // span {
+        //     content: attr(data-ttl);
+        //     // color: pink;
+        // }
+        span {
+            // position: relative;
+            &:nth-child(1) {
+                transform: translateY(-85%);
+                transition:
+                    transform .2s .8s,
+                ;
+            }
+            &:nth-child(2) {
+                transform: translateY(-85%);
+                transition:
+                    transform .4s .8s,
+                ;
+            }
+            &:nth-child(3) {
+                transform: translateY(-85%);
+                transition:
+                    transform .6s .8s,
+                ;
+            }
+            &:nth-child(4) {
+                transform: translateY(-85%);
+                transition:
+                    transform .8s .8s,
+                ;
+            }
+            &:nth-child(5) {
+                transform: translateY(-85%);
+                transition:
+                    transform 1s .8s,
+                ;
+            }
+            &:nth-child(6) {
+                transform: translateY(-85%);
+                transition:
+                    transform 1.2s .8s,
+                ;
+            }
+            &:nth-child(7) {
+                transform: translateY(-85%);
+                transition:
+                    transform 1.4s .8s,
+                ;
+            }
+            &:nth-child(8) {
+                transform: translateY(-85%);
+                transition:
+                    transform 1.6s .8s,
+                ;
+            }
+        }
+        [data-ttl]::after {
+            position: absolute;
+            top: 85%;
+            left: 0;
+            content: attr(data-ttl);
+        }
+        &::after {
+            transform: scaleX(1);
+            transition:
+                transform 2s 1s cubic-bezier(.5,.06,.06,.95),
+            ;
         }
     }
 }
