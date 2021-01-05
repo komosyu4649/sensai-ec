@@ -13,6 +13,7 @@
 .p-top-purchase__item-img {
     position: relative;
     z-index: -1;
+    background-color: pink;
     &::before {
         position: absolute;
         top: 0;

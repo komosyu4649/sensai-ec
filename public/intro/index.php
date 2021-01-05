@@ -54,7 +54,7 @@
                             <span class="p-common-fv__msg-ttl__sub">Introduction</span>
                         </h2>
                         <p class="p-common-fv__msg-txt">
-                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                            山形県新庄市で採れた選りすぐりの作物ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                         </p>
                     </div>
                 </div>
@@ -76,13 +76,13 @@
                                 </div>
                                 <div class="p-intro-all__container-item-content">
                                     <h3 class="p-intro-all__container-item-content-ttl">
-                                        <span class="">〇〇里芋</span>
+                                        <span class="">泉田さといも</span>
                                     </h3>
-                                    <span class="p-intro-all__container-item-content-ttl__sub">ここにサブタイトルが入ります</span>
+                                    <span class="p-intro-all__container-item-content-ttl__sub">（土垂”どだれ”）</span>
                                     <p class="c-txt__sec p-intro-all__container-item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                        日本における代表的な里芋の品種です。
+                                        一般的に販売されている里芋のほとんどがこの品種です。
+                                        主に子芋と孫芋を食します。
                                     </p>
                                     <a class="c-txt__link p-intro-all__container-item-content-link" href="">購入へ</a>
                                 </div>
@@ -95,14 +95,14 @@
                                 </div>
                                 <div class="p-intro-all__container-item-content">
                                     <h3 class="p-intro-all__container-item-content-ttl">
-                                        <span class="">〇〇ねぎ</span>
+                                        <span class="">泉ノ葱</span>
                                     </h3>
-                                    <span class="p-intro-all__container-item-content-ttl__sub">ここにサブタイトルが入ります</span>
+                                    <span class="p-intro-all__container-item-content-ttl__sub">(江戸千住葱”えどせんじゅねぎ”)</span>
                                     <span class="p-intro-all__container-item-content-ttl__sub"></span>
                                     <p class="c-txt__sec p-intro-all__container-item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                        江戸時代より伝わる伝統的な江戸野菜で、
+                                        「千住系根深葱（長ネギ）」の種を使用し、
+                                        最適な栽培方法で栽培された希少で高品質な葱を「江戸千住葱（えどせんじゅねぎ）」と言います。
                                     </p>
                                     <a class="c-txt__link p-intro-all__container-item-content-link" href="">購入へ</a>
                                 </div>
@@ -126,12 +126,13 @@
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
                                     <h3 class="p-intro-feature__item-content-ttl">
-                                        <span class="">〇〇里芋のにまつわる話</span>
+                                        <span class="">泉田さといもにまつわる話</span>
                                     </h3>
                                     <p class="c-txt__sec p-intro-feature__item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        <!-- ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。 -->
+                                        泉田さといもは江戸時代より「四ツ谷芋」として親しまれてきました。
+                                        しかし平成に入り、農家の現象により、生産を化学肥料に頼るようになってしまいました。
+                                        弊社は創業以前に、泉田里芋生産組合を立ち上げ泉田里芋の無農薬化、ブランド化にむけ研究を重ねてきました。
+                                        江戸時代に盛んだった里芋生産をもう一度この手で復活させようと、現在も生産に勤しんでいます。
                                     </p>
                                 </div>
                             </li>
@@ -142,12 +143,13 @@
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
                                     <h3 class="p-intro-feature__item-content-ttl">
-                                        <span class="">〇〇ねぎにまつわる話</span>
+                                        <span class="">泉ノ葱にまつわる話</span>
                                     </h3>
                                     <p class="c-txt__sec p-intro-feature__item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        <!-- ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。 -->
+                                        泉ノ葱は、江戸（現在の東京都浅草）に古くから伝わる伝統的な品種江戸千住葱を、 弊社拠点である山形県新庄市で生産したのが始まりです。
+                                        山形県内でも生産している農家はごく少数で、その栽培には高度な技術が必要になります。
+                                        弊社では、創業以来葱の土から改良を重ね、
+                                        弊社にしか生産できない大きさと美味しさを持つ葱が生産可能になりました。
                                     </p>
                                 </div>
                             </li>
@@ -158,12 +160,11 @@
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
                                     <h3 class="p-intro-feature__item-content-ttl">
-                                        <span class="">〇〇里芋の味わい</span>
+                                        <span class="">泉田さといもの味わい</span>
                                     </h3>
                                     <p class="c-txt__sec p-intro-feature__item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        <!-- ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。 -->
+                                        弊社が生産する泉田さといもは他の里芋よりも
+                                        食感が柔らかく口に入れるとトロける口当たりです。
                                     </p>
                                 </div>
                             </li>
@@ -174,12 +175,11 @@
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
                                     <h3 class="p-intro-feature__item-content-ttl">
-                                        <span class="">〇〇ねぎの味わい</span>
+                                        <span class="">泉ノ葱の味わい</span>
                                     </h3>
                                     <p class="c-txt__sec p-intro-feature__item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        <!-- ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。 -->
+                                        一口噛んだだけでその違いに驚くでしょう。
+                                        芯が飛び出るほどトロトロの食感、弊社の人気１位、高級食材、革新的な弊社の葱をぜひ一度ご賞味ください。
                                     </p>
                                 </div>
                             </li>
@@ -190,12 +190,12 @@
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
                                     <h3 class="p-intro-feature__item-content-ttl">
-                                        <span class="">〇〇里芋の調理法</span>
+                                        <span class="">泉田さといもの調理法</span>
                                     </h3>
                                     <p class="c-txt__sec p-intro-feature__item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        <!-- ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。 -->
+                                        主に、煮物での調理が主流です。
+                                        しかし、弊社のさといもは一般的な里芋に比べ粘度が高く、柔らか食感ですので、揚げ物などにしても美味しくいただくことができます。
+                                        また、山形の郷土料理である芋煮にすれば、さといもの味わいをより一層味わうことができます。
                                     </p>
                                 </div>
                             </li>
@@ -206,12 +206,12 @@
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
                                     <h3 class="p-intro-feature__item-content-ttl">
-                                        <span class="">〇〇ねぎの調理法</span>
+                                        <span class="">泉ノ葱の調理法</span>
                                     </h3>
                                     <p class="c-txt__sec p-intro-feature__item-content-txt">
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        <!-- ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。 -->
+                                        まずは塩焼きでその食感を体感してください。
+                                        通常のネギは、料理の脇役のイメージが強いですが、弊社の葱は、通常のネギより２倍近く太く、食感柔らかいので、 葱をメインとした料理にお使いいただくことが可能です。
+                                        オーブントースターで焼き、塩をかけていただいてみてください。きっと驚くはずです。
                                     </p>
                                 </div>
                             </li>

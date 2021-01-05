@@ -10,6 +10,7 @@ export default class LoadFv {
 
     onLoad() {
         this.target.classList.add('is-load');
+        if (!this.target) return;
     }
 
 }

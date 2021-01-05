@@ -7,3 +7,12 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.u-img__cover {
+    overflow: hidden;
+}
+
+.u-img__scale {
+    transform: scale(1.2);
+    transform-origin: bottom;
+}
