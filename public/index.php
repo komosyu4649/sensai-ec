@@ -72,17 +72,17 @@
                                 <span class="">明 治 &nbsp;の 時 代 か ら</span>
                                 <span class="">豊 &emsp;富 な 作 物 が 生 産 さ れ て き ま し た &emsp;。</span>
                                 <span class="">大 自 &emsp;然 &nbsp;に 囲 ま れ た 環 境 &emsp;、</span>
-                                <span class="">そ し て 弊 社 代 表 奥 山 &emsp;聡が 織 り な す 技 &emsp;術 &nbsp;に よ &emsp;っ て</span>
+                                <span class="">そ し て 弊 社 代 表 奥 山 &emsp;聡が 織  り な す 技 &emsp;術 &nbsp;に よ &emsp;っ て</span>
                                 <span class="">生 産 さ れ た 作 物 &emsp;。</span>
                                 <span class="">口 に 入 れ た そ の 瞬 間 に  </span>
                                 <span class=""> あ な た は 幸 福 感 &emsp; で </span>
                                 <span class="">満 た さ れ るで し ょ う  &emsp;。</span>
                             </p>
                         </div>
-                        <div class="p-top-msg__body-img p-top-msg__body-img__main">
+                        <div class="js-scroll__parallax p-top-msg__body-img p-top-msg__body-img__main" data-parallax="-.006">
                             <div class="p-top-msg__body-img-item__main"></div>
                         </div>
-                        <div class="p-top-msg__body-img p-top-msg__body-img__sub">
+                        <div class="js-scroll__parallax p-top-msg__body-img p-top-msg__body-img__sub" data-parallax=".01">
                             <div class="p-top-msg__body-img-item__sub"></div>
                         </div>
                     </div>
@@ -106,15 +106,15 @@
                                 <div class="js-scroll__obs u-img__cover p-top-intro__item-img">
                                     <div class="u-img__scale">
                                         <a class="p-top-intro__tem-img-link" href="">
-                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item"></div>
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item" data-parallax=".008"></div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="p-top-intro__item-content">
-                                    <h3 class="js-scroll__obs p-top-intro__item-content-ttl">
+                                <div class="js-scroll__obs p-top-intro__item-content">
+                                    <h3 class="p-top-intro__item-content-ttl">
                                         <span class="c-ttl__obs">泉田さといも</span>
                                     </h3>
-                                    <p class="c-txt__sec p-top-intro__item-content-txt">
+                                    <p class="c-txt__obs c-txt__sec p-top-intro__item-content-txt">
                                         食感が柔らかく口に入れるとトロける口当たりです。
                                         弊社はこの食感を実現するために長年品種改良に取り組んでまいりました。
                                         長い月日をかけて出来上がった独特の食感を是非一度ご賞味ください。
@@ -126,15 +126,15 @@
                                 <div class="js-scroll__obs u-img__cover p-top-intro__item-img">
                                     <div class="u-img__scale">
                                         <a class="p-top-intro__citem-img-link" href="">
-                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item"></div>
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item" data-parallax=".008"></div>
                                         </a>
                                     </div>
                                 </div>
-                                <div class="p-top-intro__item-content">
-                                    <h3 class="js-scroll__obs p-top-intro__item-content-ttl">
+                                <div class="js-scroll__obs p-top-intro__item-content">
+                                    <h3 class="p-top-intro__item-content-ttl">
                                         <span class="c-ttl__obs">泉ノ葱</span>
                                     </h3>
-                                    <p class="c-txt__sec p-top-intro__item-content-txt">
+                                    <p class="c-txt__obs c-txt__sec p-top-intro__item-content-txt">
                                         弊社の人気１位、高級食材、そして貴重な固定種である江戸千住葱を弊社が長年注力し、
                                         見つけ出した独自の栽培方法で山形県でも生産することが可能になりました。
                                         芯が飛び出るほどトロトロの食感、革新的な弊社の葱をぜひ一度ご賞味ください。
@@ -162,21 +162,21 @@
                     <div class="u-width__sec-container-full p-top-producer__container">
                         <div class="js-scroll__obs u-img__cover p-top-producer__img">
                             <div class="u-img__scale">
-                                <div class="js-scroll__parallax u-img__bg-def p-top-producer__img-item"></div>
+                                <div class="js-scroll__parallax u-img__bg-def p-top-producer__img-item" data-parallax=".008"></div>
                             </div>
                         </div>
-                        <div class="p-top-producer__content">
-                            <h3 class="js-scroll__obs p-top-producer__content-ttl">
-                                <span class="">〜 食で生活を豊かに 〜</span>
+                        <div class="js-scroll__obs p-top-producer__content">
+                            <h3 class="p-top-producer__content-ttl">
+                                <span class="c-ttl__obs">- 食で生活を豊かに</span>
                             </h3>
                             <p class="p-top-producer__content-txt">
-                                <span class="c-txt__sec">
-                                    私が作物を生産する上で最も重要視すること、 それは「免疫力の高い野菜を作り、国民の生活を守ること」です。
+                                <span class="c-txt__obs c-txt__sec">
+                                    私が作物を生産する上で最も重要視すること、それは「免疫力の高い野菜を作り、国民の生活を守ること」です。
                                 </span>
-                                <span class="c-txt__sec">
+                                <span class="c-txt__obs c-txt__sec">
                                     これを実現するため、我々は創業以来日々作物の「土」と向き合ってきました。
                                 </span>
-                                <span class="c-txt__sec">
+                                <span class="c-txt__obs c-txt__sec">
                                     経営理念でもある「良樹細根」はまさに土から良質な作物を生産し、皆様一人一人の生活を豊かにしたいという思いが込められております。
                                 </span>
                             </p>
@@ -203,7 +203,7 @@
                                 <a class="p-top-purchase__item-link" href="">
                                     <div class="u-img__cover p-top-purchase__item-img">
                                         <div class="u-img__scale">
-                                            <div class="js-scroll__parallax u-img__bg-def p-top-purchase__item-img-item"></div>
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-purchase__item-img-item" data-parallax=".008"></div>
                                         </div>
                                     </div>
                                     <div class="p-top-purchase__item-content">
@@ -216,8 +216,10 @@
                             </li>
                             <li class="js-scroll__obs p-top-purchase__item p-top-purchase__item__negi">
                                 <a class="p-top-purchase__item-link" href="">
-                                    <div class="p-top-purchase__item-img">
-                                        <div class="u-img__bg-def p-top-purchase__item-img-item"></div>
+                                    <div class="u-img__cover p-top-purchase__item-img">
+                                        <div class="u-img__scale">
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-purchase__item-img-item" data-parallax=".008"></div>
+                                        </div>
                                     </div>
                                     <div class="p-top-purchase__item-content">
                                         <h3 class="c-ttl__obs p-top-purchase__item-content-ttl">泉ノ葱</h3>

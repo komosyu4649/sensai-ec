@@ -2,6 +2,7 @@ export default class LoadFv {
 
     constructor() {
         this.target = document.querySelector('.js-load');
+        if (!this.target) return;
     }
 
     init() {
@@ -10,7 +11,7 @@ export default class LoadFv {
 
     onLoad() {
         this.target.classList.add('is-load');
-        if (!this.target) return;
+        
     }
 
 }

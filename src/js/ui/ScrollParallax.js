@@ -9,7 +9,7 @@ export default class ScrollParallax {
         this.posEnd = 0;
         this.end = 0;
         this.windowHeight = window.innerHeight;
-        console.log(this.windowHeight)
+        this.ratio = 0;
     }
 
     init() {
@@ -56,6 +56,14 @@ export default class ScrollParallax {
         // this.targets[index].style.transform = `translateY(${this.rate}px)`;
         this.posStart = this.targets[index].getBoundingClientRect().top;
         this.posEnd = this.targets[index].getBoundingClientRect().bottom;
+        // this.ease = 
+        // this.ratio = parseFloat(this.targets[index].dataset.parallax);
+        // window.requestAnimationFrame(() => {
+        //     let num = .075;
+        //     this.scrollRatio = (1 - num) * this.scrollRatio + num *  ((this.st - this.posStart) * 2 - 8);
+        //     console.log(this.scrollRatio)
+        //     // (1 - num) * this.scrollRatio + num * 
+        // })
         // console.log(this.posStart);
         // console.log(this.posEnd);
         // console.log(this.st);
@@ -68,11 +76,13 @@ export default class ScrollParallax {
         //     this.targets[index].style.transform = `translateY(${(this.st - this.posStart) * .02}px)`;
         //     console.log(8)
         // }
-        // if(this.posEnd < this.end) {
+        // if(this.posEnd < this.end) {x
         //     this.targets[index].style.transform = `translateY(0px)`;
         // }
         if(this.windowHeight > this.posStart) {
-            this.targets[index].style.transform = `translateY(${(this.st - this.posStart) * .02}px)`;
+            // this.targets[index].style.transform = `translateY(${(this.st - this.posStart) * .008}px)`;
+            // this.targets[index].style.transform = `translateY(${this.ratio * this.scrollRatio}px)`;
+            this.targets[index].style.transform = `translateY(${(this.st - this.posStart) * this.targets[index].dataset.parallax}px)`;
         }
         if(this.end > this.posEnd) {
             this.targets[index].style.transform = `translateY(0px)`;

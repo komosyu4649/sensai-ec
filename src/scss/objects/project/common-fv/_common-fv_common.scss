@@ -18,10 +18,14 @@
     flex-direction: column;
     margin: 0 0 -4rem;
 }
+.p-common-fv__img {
+    overflow: hidden;
+}
 .p-common-fv__img-item {
     position: relative;
     width: 160rem;
     height: 68rem;
+    // background-attachment: fixed;
     z-index: -1;
     &::before {
         position: absolute;
@@ -41,8 +45,8 @@
     z-index: 1;
 }
 .p-common-fv__msg-ttl {
-    display: inline-flex;
-    flex-direction: column;
+    // display: inline-flex;
+    // flex-direction: column;
 }
 .p-common-fv__msg-ttl__main {
     font-size: 5rem;
@@ -50,6 +54,7 @@
 }
 .p-common-fv__msg-ttl__sub {
     width: fit-content;
+    margin: 0 0 0 1.5rem;
     padding: .0rem 1.4rem;
     color: $color-bg-default;
     font-size: 1.8rem;
@@ -58,11 +63,21 @@
     background-color: $color-key;
 }
 .p-common-fv__msg-txt {
+    position: relative;
     margin: 3.8rem 0 0;
     padding: 3.2rem 0 0;
-    border-top: 1px solid $color-key;
+    // border-top: 1px solid $color-key;
     font-size: 1.8rem;
     line-height: 2;
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        content: "";
+        background-color: $color-key;
+    }
 }
 
 
