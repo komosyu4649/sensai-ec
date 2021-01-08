@@ -1,6 +1,7 @@
 .js-scroll__obs {
     .u-img__bg-def {
         position: relative;
+        // transform: scale(1.2);
         // transform: scaleX(0);
         // transform: scaleY(0);
         // transform-origin: top;
@@ -66,6 +67,25 @@
     }
 }
 
+.p-producer-personal__content-list {
+    position: relative;
+}
+.js-scroll__current {
+    .p-producer-personal__content-item-wrapper {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+.is-scroll__current {
+    .p-producer-personal__content-item-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
 
 .is-scroll {
     .p-header__wrapper {
@@ -86,10 +106,10 @@
     .u-img__bg-def {
         position: relative;
         // transform: scaleX(1);
-        transform: scaleY(1);
-        transition:
-            transform 1.2s cubic-bezier(.46,.11,.04,.96),
-        ;
+        // transform: scaleY(1);
+        // transition:
+        //     transform 1.2s cubic-bezier(.46,.11,.04,.96),
+        // ;
         &::after {
             position: absolute;
             top: 0;
@@ -102,8 +122,8 @@
             // transform: scaleY(0);
             opacity: 0;
             transition:
-                transform .8s 1s cubic-bezier(.5,.06,.06,.95),
-                opacity .8s 1s,
+                transform 1.6s 1s cubic-bezier(.5,.06,.06,.95),
+                opacity 1.7s 1s,
             ;
             // transform-origin: bottom;
             transform-origin: left;

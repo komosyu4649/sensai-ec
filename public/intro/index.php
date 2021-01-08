@@ -85,7 +85,7 @@
                                 <div class="u-img__cover p-intro-all__container-item-img">
                                     <!-- <a class="p-intro-all__container-item-img-link" href=""> -->
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-all__container-item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-all__container-item-img-item" data-parallax=".02"></div>
                                     </div>
                                     <!-- </a> -->
                                 </div>
@@ -106,7 +106,7 @@
                                 <div class="u-img__cover p-intro-all__container-item-img">
                                     <!-- <a class="p-intro-all__container-item-img-link" href=""> -->
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-all__container-item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-all__container-item-img-item" data-parallax=".02"></div>
                                     </div>
                                     <!-- </a> -->
                                 </div>
@@ -145,7 +145,7 @@
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__1"> -->
                                 <div class="u-img__cover p-intro-feature__item-img">
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".03"></div>
                                     </div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -164,7 +164,7 @@
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__1"> -->
                                 <div class="u-img__cover p-intro-feature__item-img">
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".03"></div>
                                     </div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -183,7 +183,7 @@
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__2"> -->
                                 <div class="u-img__cover p-intro-feature__item-img">
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".03"></div>
                                     </div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -200,7 +200,7 @@
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__2"> -->
                                 <div class="u-img__cover p-intro-feature__item-img">
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".03"></div>
                                     </div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -217,7 +217,7 @@
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__3"> -->
                                 <div class="u-img__cover p-intro-feature__item-img">
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".03"></div>
                                     </div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -235,7 +235,7 @@
                             <!-- <li class="p-intro-feature__item p-intro-feature__item__3"> -->
                                 <div class="u-img__cover p-intro-feature__item-img">
                                     <div class="u-img__scale">
-                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".008"></div>
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-feature__item-img-item" data-parallax=".03"></div>
                                     </div>
                                 </div>
                                 <div class="p-intro-feature__item-contnt">
@@ -244,7 +244,7 @@
                                     </h3>
                                     <p class="c-txt__obs c-txt__sec p-intro-feature__item-content-txt">
                                         まずは塩焼きでその食感を体感してください。
-                                        通常のネギは、料理の脇役のイメージが強いですが、弊社の葱は、通常のネギより２倍近く太く、食感柔らかいので、 葱をメインとした料理にお使いいただくことが可能です。
+                                        通常のネギは、料理の脇役のイメージが強いですが、弊社の葱は、通常のネギより２倍近く太く、食感柔らかいので、葱をメインとした料理にお使いいただくことが可能です。
                                         オーブントースターで焼き、塩をかけていただいてみてください。きっと驚くはずです。
                                     </p>
                                 </div>
@@ -256,53 +256,64 @@
 
             <section class="p-intro-flow">
                 <div class="u-width__sec p-intro-flow__wrapper">
-                    <h2 class="c-ttl__sec p-intro-flow__ttl">
-                        <span class="">生産工程</span>
-                    </h2>
+                    <div class="js-scroll__obs">
+                        <h2 class="c-ttl__sec p-intro-flow__ttl">
+                            <span class="" data-ttl="生">生</span>
+                            <span class="" data-ttl="産">産</span>
+                            <span class="" data-ttl="工">工</span>
+                            <span class="" data-ttl="程">程</span>
+                        </h2>
+                    </div>
                     <div class="u-width__sec-container-full p-intro-flow__container">
                         <ul class="p-intro-flow__list"> 
-                            <li class="p-intro-flow__item">
+                            <li class="js-scroll__obs p-intro-flow__item">
                                 <div class="p-intro-flow__item-content">
                                     <h3 class="p-intro-flow__item-content-ttl">
                                         <span class="p-intro-flow__item-content-ttl__num">01.</span>
-                                        <span class="p-intro-flow__item-content-ttl__main">収穫</span>
+                                        <span class="c-ttl__obs p-intro-flow__item-content-ttl__main">収穫</span>
                                     </h3>
-                                    <p class="c-txt__sec p-intro-flow__item-content-txt">
+                                    <p class="c-txt__obs c-txt__sec p-intro-flow__item-content-txt">
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                     </p>
                                 </div>
-                                <div class="js-scroll__obs p-intro-flow__item-img">
-                                    <div class="u-img__bg-def p-intro-flow__item-img-item"></div>
+                                <div class="u-img__cover p-intro-flow__item-img">
+                                    <div class="u-img__scale">
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-flow__item-img-item" data-parallax=".02"></div>
+                                    </div>
                                 </div>
                             </li>
-                            <li class="p-intro-flow__item">
-                                <div class="js-scroll__obs p-intro-flow__item-img">
-                                    <div class="u-img__bg-def p-intro-flow__item-img-item"></div>
+                            <li class="js-scroll__obs p-intro-flow__item">
+                                <div class="u-img__cover p-intro-flow__item-img">
+                                    <div class="u-img__scale">
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-flow__item-img-item" data-parallax=".02"></div>
+                                    </div>
                                 </div>
                                 <div class="p-intro-flow__item-content">
                                     <h3 class="p-intro-flow__item-content-ttl">
                                         <span class="p-intro-flow__item-content-ttl__num">02.</span>
-                                        <span class="p-intro-flow__item-content-ttl__main">梱包</span>
+                                        <span class="c-ttl__obs p-intro-flow__item-content-ttl__main">梱包</span>
                                     </h3>
-                                    <p class="c-txt__sec p-intro-flow__item-content-txt">
+                                    <p class="c-txt__obs c-txt__sec p-intro-flow__item-content-txt">
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                     </p>
                                 </div>
                             </li>
-                            <li class="p-intro-flow__item">
-                                <div class="js-scroll__obs p-intro-flow__item-img">
-                                    <div class="u-img__bg-def p-intro-flow__item-img-item"></div>
+                            <li class="js-scroll__obs p-intro-flow__item">
+                                <div class="u-img__cover p-intro-flow__item-img">
+                                    <div class="u-img__scale">
+                                        <div class="js-scroll__parallax u-img__bg-def p-intro-flow__item-img-item" data-parallax=".02"></div>
+                                    </div>
                                 </div>
                                 <div class="p-intro-flow__item-content">
                                     <h3 class="p-intro-flow__item-content-ttl">
                                         <span class="p-intro-flow__item-content-ttl__num">03.</span>
-                                        <span class="p-intro-flow__item-content-ttl__main">発送</span>
+                                        <span class="c-ttl__obs p-intro-flow__item-content-ttl__main">発送</span>
                                     </h3>
-                                    <p class="c-txt__sec p-intro-flow__item-content-txt">
+                                    <p class="c-txt__obs c-txt__sec p-intro-flow__item-content-txt">
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。

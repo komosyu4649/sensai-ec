@@ -14,7 +14,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 6rem;
+        // width: 6rem;
+        width: 6.5rem;
         content: attr(data-txt);
         color: $color-bg-default;
         overflow: hidden;
@@ -27,7 +28,8 @@
         position: absolute;
         top: -4rem;
         left: -2rem;
-        width: 8rem;
+        // width: 8rem;
+        width: 8.5rem;
         height: 8rem;
         content: "";
         background-color: $color-key;
@@ -55,12 +57,17 @@
     width: 92rem;
     margin: 6rem auto 0;
 }
+.p-producer-personal__img {
+    width: 48rem;
+    height: 72rem;
+}
 .p-producer-personal__img-item {
     width: 48rem;
     height: 72rem;
     background-image: url("/asset/img/producer/personal.jpg");
 }
 .p-producer-personal__content {
+    width: calc(100% - 48rem);
     margin: 4rem 0 0 4rem;
 }
 .p-producer-personal__content-list {

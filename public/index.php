@@ -82,7 +82,7 @@
                         <div class="js-scroll__parallax p-top-msg__body-img p-top-msg__body-img__main" data-parallax="-.006">
                             <div class="p-top-msg__body-img-item__main"></div>
                         </div>
-                        <div class="js-scroll__parallax p-top-msg__body-img p-top-msg__body-img__sub" data-parallax=".01">
+                        <div class="js-scroll__parallax p-top-msg__body-img p-top-msg__body-img__sub" data-parallax=".04">
                             <div class="p-top-msg__body-img-item__sub"></div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                                 <div class="js-scroll__obs u-img__cover p-top-intro__item-img">
                                     <div class="u-img__scale">
                                         <a class="p-top-intro__tem-img-link" href="">
-                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item" data-parallax=".008"></div>
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item" data-parallax=".035"></div>
                                         </a>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                 <div class="js-scroll__obs u-img__cover p-top-intro__item-img">
                                     <div class="u-img__scale">
                                         <a class="p-top-intro__citem-img-link" href="">
-                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item" data-parallax=".008"></div>
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-intro__item-img-item" data-parallax=".035"></div>
                                         </a>
                                     </div>
                                 </div>
@@ -162,7 +162,7 @@
                     <div class="u-width__sec-container-full p-top-producer__container">
                         <div class="js-scroll__obs u-img__cover p-top-producer__img">
                             <div class="u-img__scale">
-                                <div class="js-scroll__parallax u-img__bg-def p-top-producer__img-item" data-parallax=".008"></div>
+                                <div class="js-scroll__parallax u-img__bg-def p-top-producer__img-item" data-parallax=".03"></div>
                             </div>
                         </div>
                         <div class="js-scroll__obs p-top-producer__content">
@@ -203,7 +203,7 @@
                                 <a class="p-top-purchase__item-link" href="">
                                     <div class="u-img__cover p-top-purchase__item-img">
                                         <div class="u-img__scale">
-                                            <div class="js-scroll__parallax u-img__bg-def p-top-purchase__item-img-item" data-parallax=".008"></div>
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-purchase__item-img-item" data-parallax=".02"></div>
                                         </div>
                                     </div>
                                     <div class="p-top-purchase__item-content">
@@ -218,7 +218,7 @@
                                 <a class="p-top-purchase__item-link" href="">
                                     <div class="u-img__cover p-top-purchase__item-img">
                                         <div class="u-img__scale">
-                                            <div class="js-scroll__parallax u-img__bg-def p-top-purchase__item-img-item" data-parallax=".008"></div>
+                                            <div class="js-scroll__parallax u-img__bg-def p-top-purchase__item-img-item" data-parallax=".02"></div>
                                         </div>
                                     </div>
                                     <div class="p-top-purchase__item-content">

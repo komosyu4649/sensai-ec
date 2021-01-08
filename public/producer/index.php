@@ -43,14 +43,18 @@
     <main id="page">
         <div id="contents">
             
-            <section class="p-common-fv p-producer-fv">
+            <section class="js-load p-common-fv p-producer-fv">
                 <div class="u-img__bg-cover p-common-fv__wrapper">
                     <div class="p-common-fv__img">
                         <div class="u-img__bg-def p-common-fv__img-item"></div>
                     </div>
                     <div class="p-common-fv__msg">
                         <h2 class="p-common-fv__msg-ttl">
-                            <span class="p-common-fv__msg-ttl__main">生産者の声</span>
+                            <span class="p-common-fv__msg-ttl__main" data-ttl="生">生</span>
+                            <span class="p-common-fv__msg-ttl__main" data-ttl="産">産</span>
+                            <span class="p-common-fv__msg-ttl__main" data-ttl="者">者</span>
+                            <span class="p-common-fv__msg-ttl__main" data-ttl="の">の</span>
+                            <span class="p-common-fv__msg-ttl__main" data-ttl="声">声</span>
                             <span class="p-common-fv__msg-ttl__sub">Producer</span>
                         </h2>
                         <p class="p-common-fv__msg-txt">
@@ -79,14 +83,20 @@
 
             <section class="p-producer-personal">
                 <div class="u-width__sec p-producer-personal__wrapper">
-                    <h2 class="c-ttl__sec p-producer-personal__ttl">
-                        <span class="">商品生産者</span>
-                    </h2>
+                    <div class="js-scroll__obs">
+                        <h2 class="c-ttl__sec p-producer-personal__ttl">
+                            <span class="" data-ttl="商">商</span>
+                            <span class="" data-ttl="品">品</span>
+                            <span class="" data-ttl="生">生</span>
+                            <span class="" data-ttl="産">産</span>
+                            <span class="" data-ttl="者">者</span>
+                        </h2>
+                    </div>
                     <div class="u-width__sec-container-full p-producer-personal__container">
-                        <div class="p-producer-personal__head">
+                        <div class="js-scroll__obs p-producer-personal__head">
                             <div class="p-producer-personal__head-name">
                                 <h3 class="p-producer-personal__head-name-ttl">
-                                    <span class="">奥山 聡</span>
+                                    <span class="c-ttl__obs">奥山 聡</span>
                                 </h3>
                                 <span class="p-producer-personal__head-name-ttl-sub" data-txt="Satoshi&nbsp;Okuyama">Satoshi&nbsp;Okuyama</span>
                             </div>
@@ -98,46 +108,56 @@
                             </div>
                         </div>
                         <div class="u-width__sec-container-full p-producer-personal__block">
-                            <div class="js-scroll__obs p-producer-personal__img">
-                                <div class="u-img__bg-def p-producer-personal__img-item"></div>
+                            <div class="js-scroll__obs u-img__cover p-producer-personal__img">
+                                <div class="u-img__scale">
+                                    <div class="js-scroll__parallax u-img__bg-def p-producer-personal__img-item" data-parallax=".03"></div>
+                                </div>
                             </div>
                             <div class="p-producer-personal__content">
                                 <ul class="p-producer-personal__content-list">
-                                    <li class="p-producer-personal__content-item">
-                                        <h4 class="p-producer-personal__content-item-ttl">
-                                            <span class="">生産者としてのこだわり</span>
-                                        </h4>
-                                        <p class="c-txt__sec p-producer-personal__content-item-txt">
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        </p>
+                                    <li class="js-scroll__current p-producer-personal__content-item">
+                                        <div class="p-producer-personal__content-item-wrapper">
+                                            <h4 class="p-producer-personal__content-item-ttl">
+                                                <span class="">生産者としてのこだわり</span>
+                                            </h4>
+                                            <p class="c-txt__sec p-producer-personal__content-item-txt">
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                            </p>
+                                        </div>
                                     </li>
-                                    <li class="p-producer-personal__content-item">
-                                        <h4 class="p-producer-personal__content-item-ttl">
-                                            <span class="">他品種にはない強み</span>
-                                        </h4>
-                                        <p class="c-txt__sec p-producer-personal__content-item-txt">
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        </p>
+                                    <li class="js-scroll__current p-producer-personal__content-item">
+                                        <div class="p-producer-personal__content-item-wrapper">
+                                            <h4 class="p-producer-personal__content-item-ttl">
+                                                <span class="">他品種にはない強み</span>
+                                            </h4>
+                                            <p class="c-txt__sec p-producer-personal__content-item-txt">
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                            </p>
+                                        </div>
                                     </li>
-                                    <li class="p-producer-personal__content-item">
-                                        <h4 class="p-producer-personal__content-item-ttl">
-                                            <span class="">こういう人に食べて欲しい</span>
-                                        </h4>
-                                        <p class="c-txt__sec p-producer-personal__content-item-txt">
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        </p>
+                                    <li class="js-scroll__current p-producer-personal__content-item">
+                                        <div class="p-producer-personal__content-item-wrapper">
+                                            <h4 class="p-producer-personal__content-item-ttl">
+                                                <span class="">こういう人に食べて欲しい</span>
+                                            </h4>
+                                            <p class="c-txt__sec p-producer-personal__content-item-txt">
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                            </p>
+                                        </div>
                                     </li>
-                                    <li class="p-producer-personal__content-item">
-                                        <h4 class="p-producer-personal__content-item-ttl">
-                                            <span class="">今後の栽培方針</span>
-                                        </h4>
-                                        <p class="c-txt__sec p-producer-personal__content-item-txt">
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                        </p>
+                                    <li class="js-scroll__current p-producer-personal__content-item">
+                                        <div class="p-producer-personal__content-item-wrapper">
+                                            <h4 class="p-producer-personal__content-item-ttl">
+                                                <span class="">今後の栽培方針</span>
+                                            </h4>
+                                            <p class="c-txt__sec p-producer-personal__content-item-txt">
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                            </p>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
