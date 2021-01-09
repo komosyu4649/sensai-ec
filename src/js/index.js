@@ -25,7 +25,8 @@ window.addEventListener('scroll', () => {
     scrollHeaderLine.onScroll();
     scrollHeaderScale.onScroll();
     scrollParallax.onScroll();
-    scrollSwap.onScroll();
+    // scrollSwap.onScroll();
+    
 });
 
 window.addEventListener('load', () => {

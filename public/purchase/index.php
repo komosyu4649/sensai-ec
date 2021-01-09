@@ -43,14 +43,17 @@
     <main id="page">
         <div id="contents">
             
-            <section class="p-common-fv p-purchase-fv">
+            <section class="js-load p-common-fv p-purchase-fv">
                 <div class="u-img__bg-cover p-common-fv__wrapper">
                     <div class="p-common-fv__img">
                         <div class="u-img__bg-def p-common-fv__img-item"></div>
                     </div>
                     <div class="p-common-fv__msg">
                         <h2 class="p-common-fv__msg-ttl">
-                            <span class="p-common-fv__msg-ttl__main">販売商品</span>
+                            <span class="p-common-fv__msg-ttl__main"  data-ttl="販">販</span>
+                            <span class="p-common-fv__msg-ttl__main"  data-ttl="売">売</span>
+                            <span class="p-common-fv__msg-ttl__main"  data-ttl="商">商</span>
+                            <span class="p-common-fv__msg-ttl__main"  data-ttl="品">品</span>
                             <span class="p-common-fv__msg-ttl__sub">Purchase</span>
                         </h2>
                         <p class="p-common-fv__msg-txt">

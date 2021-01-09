@@ -67,22 +67,46 @@
     }
 }
 
-.p-producer-personal__content-list {
+.p-producer-personal__content-block {
+    
+}
+.p-producer-personal__content {
     position: relative;
+}
+.p-producer-personal__content-list {
+    // position: relative;
+}
+.p-producer-personal__content-item {
+    position: absolute;
 }
 .js-scroll__current {
     .p-producer-personal__content-item-wrapper {
+        // position: absolute;
+        // bottom: 0;
+        // left: 0;
+        transform: translateX(16%);
         visibility: hidden;
         opacity: 0;
+        // transition:
+        //     transform .2s,
+        //     visibility .1s,
+        //     opacity .1s,
+        // ;
     }
 }
 .is-scroll__current {
     .p-producer-personal__content-item-wrapper {
-        position: absolute;
-        top: 0;
-        left: 0;
+        // position: absolute;
+        // bottom: 0;
+        // left: 0;
+        transform: translateX(0%);
         visibility: visible;
         opacity: 1;
+        transition:
+            transform 1.2s cubic-bezier(.5,.06,.06,.95),
+            visibility 1s,
+            opacity 1s,
+        ;
     }
 }
 
