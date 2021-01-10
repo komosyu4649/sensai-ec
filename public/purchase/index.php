@@ -90,10 +90,22 @@
                             <li class="p-purchase-product__item">
                                 <div class="p-purchase-product__item-main">
                                     <div class="p-purchase-product__item-main-imgs">
-                                        <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top" src="/asset/img/purchase/product-imo-1.jpeg" alt="">
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-imo-1.jpeg" alt="">
+                                        </div>
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-imo-2.jpeg" alt="">
+                                        </div>
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-imo-3.jpeg" alt="">
+                                        </div>
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-imo-4.jpeg" alt="">
+                                        </div>
+                                        <!-- <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top" src="/asset/img/purchase/product-imo-1.jpeg" alt="">
                                         <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-imo-2.jpeg" alt="">
                                         <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-imo-3.jpeg" alt="">
-                                        <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-imo-4.jpeg" alt="">
+                                        <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-imo-4.jpeg" alt=""> -->
                                     </div>
                                     <div class="p-purchase-product__item-main-content">
                                         <h3 class="p-purchase-product__item-main-content-ttl">
@@ -143,10 +155,22 @@
                             <li class="p-purchase-product__item">
                                 <div class="p-purchase-product__item-main">
                                     <div class="p-purchase-product__item-main-imgs">
-                                        <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top" src="/asset/img/purchase/product-negi-1.jpeg" alt="">
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-negi-1.jpeg" alt="">
+                                        </div>
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-negi-2.jpeg" alt="">
+                                        </div>
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-negi-3.jpeg" alt="">
+                                        </div>
+                                        <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom">
+                                            <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-negi-4.jpeg" alt="">
+                                        </div>
+                                        <!-- <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top" src="/asset/img/purchase/product-negi-1.jpeg" alt="">
                                         <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-negi-2.jpeg" alt="">
                                         <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-negi-3.jpeg" alt="">
-                                        <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-negi-4.jpeg" alt="">
+                                        <img class="p-purchase-product__item-main-img p-purchase-product__item-main-img__bottom" src="/asset/img/purchase/product-negi-4.jpeg" alt=""> -->
                                     </div>
                                     <div class="p-purchase-product__item-main-content">
                                         <h3 class="p-purchase-product__item-main-content-ttl">

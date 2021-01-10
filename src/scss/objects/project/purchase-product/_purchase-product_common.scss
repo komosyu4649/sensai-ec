@@ -16,10 +16,18 @@
     flex-wrap: wrap;
 }
 .p-purchase-product__item-main-img {
-    width: 100%;
+    // width: 100%;
+}
+.p-purchase-product__item-main-img__top {
+    // width: 56rem;
+    // height: 36rem;
+    // object-fit: cover;
 }
 .p-purchase-product__item-main-img__bottom {
     width: calc(56rem / 3);
+}
+.p-purchase-product__item-main-img-item {
+    width: 100%;
 }
 .p-purchase-product__item-main-content {
     @include flex();
