@@ -4,6 +4,7 @@ import ScrollParallax from "./ui/ScrollParallax";
 import ScrollSwap from "./ui/ScrollSwap";
 // import ScrollObserver from "./ui/ScrollObserver";
 import ClickImg from "./ui/ClickImg";
+import ClickMenu from "./ui/ClickMenu";
 import LoadFv from "./ui/LoadFv";
 import "./ui/scrollObserve";
 
@@ -13,6 +14,7 @@ const scrollParallax = new ScrollParallax();
 const scrollSwap = new ScrollSwap();
 // const scrollObserver = new ScrollObserver();
 const clickImg = new ClickImg();
+const clickMenu = new ClickMenu();
 const loadFv = new LoadFv();
 
 scrollHeaderLine.init();
@@ -21,6 +23,7 @@ scrollParallax.init();
 scrollSwap.init();
 // scrollObserver.init();
 clickImg.init();
+clickMenu.init();
 loadFv.init();
 
 
@@ -31,6 +34,10 @@ window.addEventListener('scroll', () => {
     // scrollSwap.onScroll();
     
 });
+
+// window.addEventListener('resize', () => {
+    
+// })
 
 // window.addEventListener('click', () => {
 //     clickImg.onClick();

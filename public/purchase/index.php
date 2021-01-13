@@ -89,7 +89,7 @@
                         <ul class="p-purchase-product__list">
                             <li class="p-purchase-product__item">
                                 <div class="p-purchase-product__item-main">
-                                    <div class="p-purchase-product__item-main-imgs">
+                                    <div class="p-purchase-product__item-main-imgs__imo p-purchase-product__item-main-imgs">
                                         <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top">
                                             <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-imo-1.jpeg" alt="">
                                         </div>
@@ -116,45 +116,53 @@
                                     </div>
                                 </div>
                                 <div class="p-purchase-product__item-sub">
-                                    <ul class="p-purchase-product__item-sub-list">
-                                        <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>商品詳細</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                    <ul class="p-purchase-product__item-sub-list__imo p-purchase-product__item-sub-list">
+                                        <li class="is-click p-purchase-product__item-sub-item">
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>商品詳細</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div>    
                                         </li>
                                         <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>保存方法</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>保存方法</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div> 
                                         </li>
                                         <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>発送方法</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>発送方法</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div> 
                                         </li>
                                         <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>調理例</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>調理例</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="p-purchase-product__item">
                                 <div class="p-purchase-product__item-main">
-                                    <div class="p-purchase-product__item-main-imgs">
+                                    <div class="p-purchase-product__item-main-imgs__negi p-purchase-product__item-main-imgs">
                                         <div class="p-purchase-product__item-main-img p-purchase-product__item-main-img__top">
                                             <img class="p-purchase-product__item-main-img-item" src="/asset/img/purchase/product-negi-1.jpeg" alt="">
                                         </div>
@@ -181,38 +189,46 @@
                                     </div>
                                 </div>
                                 <div class="p-purchase-product__item-sub">
-                                    <ul class="p-purchase-product__item-sub-list">
-                                        <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>商品詳細</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                    <ul class="p-purchase-product__item-sub-list__negi p-purchase-product__item-sub-list">
+                                        <li class="is-click p-purchase-product__item-sub-item">
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>商品詳細</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div>
                                         </li>
                                         <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>保存方法</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>保存方法</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div>
                                         </li>
                                         <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>発送方法</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>発送方法</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div>
                                         </li>
                                         <li class="p-purchase-product__item-sub-item">
-                                            <h4 class="p-purchase-product__item-sub-item-ttl">
-                                                <span>調理例</span>
-                                            </h4>
-                                            <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
-                                                ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
-                                            </p>
+                                            <div class="p-purchase-product__item-sub-item-wrapper">
+                                                <h4 class="p-purchase-product__item-sub-item-ttl">
+                                                    <span>調理例</span>
+                                                </h4>
+                                                <p class="c-txt__sec p-purchase-product__item-sub-item-txt">
+                                                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                                                </p>
+                                            </div>
                                         </li>
                                     </ul>
                                 </div>

@@ -30,6 +30,10 @@ export default class ScrollHeaderLine {
         this.headerStyleWidth = this.target.style.width = `${this.scrollTop}px`;
     }
 
+    onResize() {
+        
+    }
+
 
 
     

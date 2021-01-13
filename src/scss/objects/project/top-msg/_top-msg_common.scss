@@ -88,23 +88,25 @@
         font-size: 4rem;
     }
     .p-top-msg__body-img__main {
+        margin: 0 -44rem 0 0;
         &::before {
             bottom: 28rem;
-            width: 48rem;
+            width: 26rem;
+            left: -10rem;
             height: 72rem;
         }
     }
     .p-top-msg__body-img-item__main {
         width: 64rem;
-        margin: 60rem -24rem 0rem 0rem;
-        // &::before {
-        //     bottom: 28rem;
-        //     width: 48rem;
-        //     height: 72rem;
-        // }
+        margin: 50rem -24rem 0rem 0rem;
+        &::before {
+            bottom: 18rem;
+            width: 48rem;
+            height: 72rem;
+        }
     }
     .p-top-msg__body-img-item__sub {
         width: 32rem;
-        margin: 20rem -36rem 0rem 0rem;
+        margin: 44rem -36rem 0rem 0rem;
     }
 }

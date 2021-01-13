@@ -1,103 +1,200 @@
 export default class ClickImg {
 
     constructor() {
-        this.items = null;
-        this.imgs = null;
-        this.imgList = null;
-        this.imgSrcs = null;
-        this.contents = null;
+        this.ImgsNegi = document.querySelector('.p-purchase-product__item-main-imgs__negi');
+        if(!this.ImgsNegi) return;
+        this.ImgsImo = document.querySelector('.p-purchase-product__item-main-imgs__imo');
+        // this.ImgsTop = document.querySelectorAll('.p-purchase-product__item-main-img__top');
+        this.ImgsNegiTop = this.ImgsNegi.querySelector('.p-purchase-product__item-main-img__top').firstElementChild;
+        this.ImgsImoTop = this.ImgsImo.querySelector('.p-purchase-product__item-main-img__top').firstElementChild;
+        this.ImgsNegiTopSrc = this.ImgsNegiTop.getAttribute('src');
+        this.ImgsImoTopSrc = this.ImgsImoTop.getAttribute('src');
+        // this.ImgsBottom = document.querySelectorAll('.p-purchase-product__item-main-img__bottom');
+        this.contentsNegi = document.querySelector('.p-purchase-product__item-sub-list__negi');
+        this.contentsImo = document.querySelector('.p-purchase-product__item-sub-list__imo');
+        this.contentNegi = this.contentsNegi.children;
+        this.contentImo = this.contentsImo.children;
+
+        this.ImgsNegiChild = this.ImgsNegi.querySelectorAll('.p-purchase-product__item-main-img');
+        for( let i = 0; i < this.ImgsNegiChild.length; i++ ) {
+            this.ImgsNegiChild[i].addEventListener('click', (e) => {
+                this.clear();
+                e.target.parentNode.classList.add('is-click');
+                this.ImgSrc = e.target.getAttribute('src');
+                this.ImgsNegiTop.setAttribute('src', `${this.ImgSrc}`);
+                for( let i = 0; i < this.contentNegi.length; i++ ) {
+                    this.contentNegi[i];
+                }
+                if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-1.jpeg') {
+                    this.contentNegi[0].classList.add('is-click');
+                    this.contentNegi[1].classList.remove('is-click');
+                    this.contentNegi[2].classList.remove('is-click');
+                    this.contentNegi[3].classList.remove('is-click');
+                }
+                if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-2.jpeg') {
+                    this.contentNegi[0].classList.remove('is-click');
+                    this.contentNegi[1].classList.add('is-click');
+                    this.contentNegi[2].classList.remove('is-click');
+                    this.contentNegi[3].classList.remove('is-click');
+                }
+                if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-3.jpeg') {
+                    this.contentNegi[0].classList.remove('is-click');
+                    this.contentNegi[1].classList.remove('is-click');
+                    this.contentNegi[2].classList.add('is-click');
+                    this.contentNegi[3].classList.remove('is-click');
+                }
+                if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-4.jpeg') {
+                    this.contentNegi[0].classList.remove('is-click');
+                    this.contentNegi[1].classList.remove('is-click');
+                    this.contentNegi[2].classList.remove('is-click');
+                    this.contentNegi[3].classList.add('is-click');
+                }
+            });
+        }
+        this.ImgsNegiTop.addEventListener('click', () => {
+            this.ImgsNegiTop.setAttribute('src', `${this.ImgsNegiTopSrc}`);
+        })
+
+        this.ImgsImoChild = this.ImgsImo.querySelectorAll('.p-purchase-product__item-main-img');
+        for( let i = 0; i < this.ImgsImoChild.length; i++ ) {
+            this.ImgsImoChild[i].addEventListener('click', (e) => {
+                this.clear();
+                e.target.parentNode.classList.add('is-click');
+                this.ImgSrc = e.target.getAttribute('src');
+                this.ImgsImoTop.setAttribute('src', `${this.ImgSrc}`);
+                for( let i = 0; i < this.contentImo.length; i++ ) {
+                    this.contentImo[i];
+                }
+                if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-1.jpeg') {
+                    this.contentImo[0].classList.add('is-click');
+                    this.contentImo[1].classList.remove('is-click');
+                    this.contentImo[2].classList.remove('is-click');
+                    this.contentImo[3].classList.remove('is-click');
+                }
+                if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-2.jpeg') {
+                    this.contentImo[0].classList.remove('is-click');
+                    this.contentImo[1].classList.add('is-click');
+                    this.contentImo[2].classList.remove('is-click');
+                    this.contentImo[3].classList.remove('is-click');
+                }
+                if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-3.jpeg') {
+                    this.contentImo[0].classList.remove('is-click');
+                    this.contentImo[1].classList.remove('is-click');
+                    this.contentImo[2].classList.add('is-click');
+                    this.contentImo[3].classList.remove('is-click');
+                }
+                if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-4.jpeg') {
+                    this.contentImo[0].classList.remove('is-click');
+                    this.contentImo[1].classList.remove('is-click');
+                    this.contentImo[2].classList.remove('is-click');
+                    this.contentImo[3].classList.add('is-click');
+                }
+            });
+        }
+        this.ImgsImoTop.addEventListener('click', () => {
+            this.ImgsImoTop.setAttribute('src', `${this.ImgsImoTopSrc}`);
+        })
+
+        this.clear();
     }
 
     init() {
-        this.setSelector();
-        this.onClick();
+        // this.onClickNegi();
+        // this.onClickImo();
+        // this.clear();
     }
 
-    setSelector() {
-        this.items = document.querySelectorAll('.p-purchase-product__item');
-        for( let i = 0; i < this.items.length; i++ ) {
-            this.item(i);
-        }
-        // this.imgsList = document.querySelectorAll('.p-purchase-product__item-main-imgs');
-        // for( let i = 0; i < this.imgsList.length; i++ ) {
-        //     this.imgItem(i)
-        // }
+    clear() {
+        for( let i = 0; i < this.ImgsNegiChild.length; i++ ) {
+            this.ImgsNegiChild[i].classList.remove('is-click');
+        } 
+        for( let i = 0; i < this.ImgsImoChild.length; i++ ) {
+            this.ImgsImoChild[i].classList.remove('is-click');
+        } 
     }
 
-    item(index) {
-        this.itemsIndex = this.items[index];
-        this.imgsList = document.querySelectorAll('.p-purchase-product__item-main-imgs');
-        for( let i = 0; i < this.imgsList.length; i++ ) {
-            // this.imgItem(i)
-            // console.log(i)
-        }
-    }
-
-    // img(index) {
-    //     // this.imgsIndex = this.imgs[index];
-    //     // console.log(this.imgsIndex)
-    // }
-
-    // imgItem(index) {
-    //     this.imgItemIndex = this.imgsList[index];
-    //     this.imgItemIndexChilds = this.imgItemIndex.children;
-    //     this.imgLg = this.imgItemIndex.firstElementChild;
-    //     this.imgLgChild = this.imgLg;
-    //     console.log(this.imgLgChild);
-    //     this.imgLgSrc = this.imgLg.getAttribute('src');
-    //     for(let i = 0; i < this.imgItemIndexChilds.length; i++) {
-    //         this.imgItemIndexChild;
-    //         this.imgItemChild = this.imgItemIndexChilds[i];
-    //         this.imgItemChild.addEventListener('click', (e) => {
-    //             this.imgLg.setAttribute('src', `${e.currentTarget.getAttribute('src')}`);
+    // onClickNegi() {
+    //     this.ImgsNegiChild = this.ImgsNegi.querySelectorAll('.p-purchase-product__item-main-img');
+    //     for( let i = 0; i < this.ImgsNegiChild.length; i++ ) {
+    //         this.ImgsNegiChild[i].addEventListener('click', (e) => {
+    //             this.clear();
+    //             e.target.parentNode.classList.add('is-click');
+    //             this.ImgSrc = e.target.getAttribute('src');
+    //             this.ImgsNegiTop.setAttribute('src', `${this.ImgSrc}`);
+    //             for( let i = 0; i < this.contentNegi.length; i++ ) {
+    //                 this.contentNegi[i];
+    //             }
+    //             if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-1.jpeg') {
+    //                 this.contentNegi[0].classList.add('is-click');
+    //                 this.contentNegi[1].classList.remove('is-click');
+    //                 this.contentNegi[2].classList.remove('is-click');
+    //                 this.contentNegi[3].classList.remove('is-click');
+    //             }
+    //             if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-2.jpeg') {
+    //                 this.contentNegi[0].classList.remove('is-click');
+    //                 this.contentNegi[1].classList.add('is-click');
+    //                 this.contentNegi[2].classList.remove('is-click');
+    //                 this.contentNegi[3].classList.remove('is-click');
+    //             }
+    //             if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-3.jpeg') {
+    //                 this.contentNegi[0].classList.remove('is-click');
+    //                 this.contentNegi[1].classList.remove('is-click');
+    //                 this.contentNegi[2].classList.add('is-click');
+    //                 this.contentNegi[3].classList.remove('is-click');
+    //             }
+    //             if(this.ImgsNegiTop.getAttribute('src') === '/asset/img/purchase/product-negi-4.jpeg') {
+    //                 this.contentNegi[0].classList.remove('is-click');
+    //                 this.contentNegi[1].classList.remove('is-click');
+    //                 this.contentNegi[2].classList.remove('is-click');
+    //                 this.contentNegi[3].classList.add('is-click');
+    //             }
     //         });
-    //         this.imgLg.addEventListener('click', () => {
-    //             this.imgLg.setAttribute('src', '/asset/img/purchase/product-negi-1.jpeg');
-    //         })
     //     }
+    //     this.ImgsNegiTop.addEventListener('click', () => {
+    //         this.ImgsNegiTop.setAttribute('src', `${this.ImgsNegiTopSrc}`);
+    //     })
     // }
 
-    imgItemIndexChild(index) {
-        this.imgChild = this.imgItemIndexChilds[index];
-        this.imgChildSrc = this.imgChild.getAttribute('src');
-        console.log(this.imgChildSrc);
-    }
-    
-    itemsIndex() {
-
-    }
-
-    onClick() {
-        // console.log(this.imgLg);
-        // this.imgChild.addEventListener('click', () => {
-        //     this.imgLg.classList.add('pink');
-        //     alert(88);
-        // })
-        this.imgsList;
-        // console.log(this.imgsList);
-        for(let i = 0; i < this.imgsList.length; i++) {
-            this.imgItem = this.imgsList[i];
-            this.imgLg = this.imgItem.firstElementChild;
-            this.imgLgChild = this.imgLg.firstElementChild;
-            this.imgLgChildSrc = this.imgLgChild.getAttribute('src');
-        }
-        
-        // this.imgItemIndex = this.imgsList[index];
-        // this.imgItemIndexChilds = this.imgItemIndex.children;
-        // this.imgLg = this.imgItemIndex.firstElementChild;
-        // this.imgLgChild = this.imgLg;
-        // console.log(this.imgLgChild);
-        // this.imgLgSrc = this.imgLg.getAttribute('src');
-        // for(let i = 0; i < this.imgItemIndexChilds.length; i++) {
-        //     this.imgItemIndexChild;
-        //     this.imgItemChild = this.imgItemIndexChilds[i];
-        //     this.imgItemChild.addEventListener('click', (e) => {
-        //         this.imgLg.setAttribute('src', `${e.currentTarget.getAttribute('src')}`);
-        //     });
-        //     this.imgLg.addEventListener('click', () => {
-        //         this.imgLg.setAttribute('src', '/asset/img/purchase/product-negi-1.jpeg');
-        //     })
-        // }
-    }
+    // onClickImo() {
+    //     this.ImgsImoChild = this.ImgsImo.querySelectorAll('.p-purchase-product__item-main-img');
+    //     for( let i = 0; i < this.ImgsImoChild.length; i++ ) {
+    //         this.ImgsImoChild[i].addEventListener('click', (e) => {
+    //             this.clear();
+    //             e.target.parentNode.classList.add('is-click');
+    //             this.ImgSrc = e.target.getAttribute('src');
+    //             this.ImgsImoTop.setAttribute('src', `${this.ImgSrc}`);
+    //             for( let i = 0; i < this.contentImo.length; i++ ) {
+    //                 this.contentImo[i];
+    //             }
+    //             if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-1.jpeg') {
+    //                 this.contentImo[0].classList.add('is-click');
+    //                 this.contentImo[1].classList.remove('is-click');
+    //                 this.contentImo[2].classList.remove('is-click');
+    //                 this.contentImo[3].classList.remove('is-click');
+    //             }
+    //             if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-2.jpeg') {
+    //                 this.contentImo[0].classList.remove('is-click');
+    //                 this.contentImo[1].classList.add('is-click');
+    //                 this.contentImo[2].classList.remove('is-click');
+    //                 this.contentImo[3].classList.remove('is-click');
+    //             }
+    //             if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-3.jpeg') {
+    //                 this.contentImo[0].classList.remove('is-click');
+    //                 this.contentImo[1].classList.remove('is-click');
+    //                 this.contentImo[2].classList.add('is-click');
+    //                 this.contentImo[3].classList.remove('is-click');
+    //             }
+    //             if(this.ImgsImoTop.getAttribute('src') === '/asset/img/purchase/product-imo-4.jpeg') {
+    //                 this.contentImo[0].classList.remove('is-click');
+    //                 this.contentImo[1].classList.remove('is-click');
+    //                 this.contentImo[2].classList.remove('is-click');
+    //                 this.contentImo[3].classList.add('is-click');
+    //             }
+    //         });
+    //     }
+    //     this.ImgsImoTop.addEventListener('click', () => {
+    //         this.ImgsImoTop.setAttribute('src', `${this.ImgsImoTopSrc}`);
+    //     })
+    // }
 
 }
